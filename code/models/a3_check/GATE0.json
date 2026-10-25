@@ -1,0 +1,35 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "n_seeds": 40,
+ "hl": 10,
+ "G0_reproduces_stored": {
+  "C4_A0_R1": true,
+  "C4_A0_METHOD": true,
+  "C5_A0_R1": true,
+  "C5_A0_METHOD": true,
+  "C6_A0_R1": true,
+  "C6_A0_METHOD": true,
+  "C4_A1_R1": true,
+  "C4_A1_METHOD": true,
+  "C5_A1_R1": true,
+  "C5_A1_METHOD": true,
+  "C6_A1_R1": true,
+  "C6_A1_METHOD": true,
+  "C4_A2_R1": true,
+  "C4_A2_METHOD": true,
+  "C5_A2_R1": true,
+  "C5_A2_METHOD": true,
+  "C6_A2_R1": true,
+  "C6_A2_METHOD": true
+ },
+ "ok": true,
+ "code": {
+  "a3_rule.py": "e1d5cde1bb9ecd78a67fad7bcb1adc4c",
+  "a3_check.py": "1660ea239ba9186365375d9f5045f5f3"
+ }
+}

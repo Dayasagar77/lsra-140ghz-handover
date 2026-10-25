@@ -1,6 +1,6 @@
-# Tables T1–T5 (multi-vehicle paper)
+# Tables T1–T6 (multi-vehicle paper)
 
-Made by `make_tables_ma.py` from the code and the finished result files only. Sources: `models/admission_check/ADMIT_RESULT.json` (md5 803e1017a39ef1dcd4a6e9ea10ade9ad); `models/load_check/LOAD_RESULT.json` (md5 0fb5845ca6b234261d7ca78363c5e730); `models/load_check_c6/LOAD6_RESULT.json` (md5 8e1860b938f69560610da9619e7bbc00); `models/method_heldout/HELDOUT_RESULT.json` (md5 9254d3e8964a4e49cd018d283d0837ef).
+Made by `make_tables_ma.py` from the code and the finished result files only. Sources: `models/admission_check/ADMIT_RESULT.json` (md5 803e1017a39ef1dcd4a6e9ea10ade9ad); `models/load_check/LOAD_RESULT.json` (md5 0fb5845ca6b234261d7ca78363c5e730); `models/load_check_c6/LOAD6_RESULT.json` (md5 8e1860b938f69560610da9619e7bbc00); `models/method_heldout/HELDOUT_RESULT.json` (md5 9254d3e8964a4e49cd018d283d0837ef); `models/a3_check/A3_RESULT.json` (md5 64426f3ce80be36d8aa465b69e4790e8).
 
 ## T1. Notation
 
@@ -48,7 +48,7 @@ Made by `make_tables_ma.py` from the code and the finished result files only. So
 | Handover delay | 0.2 s, 0.5 s, 1.0 s, 1.5 s (L = 2, 5, 10, 15 slots) | method_heldout.HLS |
 | LSRA | β = 0.05, H = L + 1, forecast held from slot t | FREEZE.json, lsra.py |
 | Scenes, episodes | 45 design and 60 held-out DAIR-V2X intersection scenes; 480 episodes per cell | pools, SEEDS_heldout60.csv |
-| Statistics | scene bootstrap, 10,000 resamples; 98.75 % for four-baseline families | remeasure_ma.BOOT |
+| Statistics | scene bootstrap, 10,000 resamples; 98.75 % for four-baseline families, 99 % for the five A3 settings | remeasure_ma.BOOT |
 
 ## T3. Arms and admission models
 
@@ -59,6 +59,7 @@ Made by `make_tables_ma.py` from the code and the finished result files only. So
 | R1i | R1 counting vehicles on their way (landing load), updated after each decision in the slot. | rule; R1 with the landing count |
 | R2 | Joint assignment of exactly the vehicles in outage (R0's movers) to the places left; others stay. | restricted joint assignment |
 | R3 | Joint assignment of every present vehicle to the G·C places, each slot, on the current geometry and current stations. | full joint assignment |
+| A3, Sets 1–5 | 3GPP event A3: hand over to the strongest neighbour whose layer-3 filtered received power exceeds the serving station's by the A3 offset for the time-to-trigger; the five TR 36.839 calibration sets (Table 6). | today's standard trigger, blind to load |
 | R3F | R3 scoring each station by its mean received power at the landing slot, from the true future geometry. | reference; uses the future |
 | LSRA | Landing-state risk assignment: free vehicles only, quotas q_g, cost r̄ + β per move, one assignment per slot. | proposed method |
 | LSRA, perfect forecast | LSRA with the true future geometry in the risk window. | reference; uses the future |
@@ -102,4 +103,20 @@ Each interval is its own scene bootstrap (see T4).
 
 Pre-registered secondary test HR3 (95 % interval; 4 places, A2: LSRA without the landing state minus LSRA): +0.84 pp [+0.23, +1.62], held.
 
-_make_tables_ma.py md5 b9a6916e231f1d1c83c07c77f9f803a4; python 3.11.9, numpy 2.4.4, pandas 3.0.3._
+## T6. The 3GPP A3 rule at its five TR 36.839 settings: worst-vehicle RLF at 1.0 s (%), 95 % scene intervals
+
+Time-to-trigger, A3 offset and layer-3 filter coefficient K (TR 36.839, Table 5.3.2.1): Set 1 480 ms, 3 dB, 4; Set 2 160 ms, 3 dB, 4; Set 3 160 ms, 2 dB, 1; Set 4 80 ms, 1 dB, 1; Set 5 40 ms, -1 dB, 0. LSRA as in T4. Registered tests at 4 places, LSRA against all five sets with 99 % intervals (Bonferroni over five): HA1 (A2) held; HA2 (A1) held.
+
+| Places, admission | Set 1 | Set 2 | Set 3 | Set 4 | Set 5 | LSRA |
+|---|---|---|---|---|---|---|
+| 4 places, A0 | 55.53 [49.56, 61.21] | 62.67 [56.89, 68.13] | 51.47 [46.22, 56.73] | 34.57 [30.77, 38.60] | 26.26 [23.95, 28.58] | 3.59 [2.34, 4.99] |
+| 4 places, A1 | 13.65 [8.76, 19.01] | 16.70 [11.74, 22.13] | 16.38 [11.66, 21.57] | 12.86 [8.72, 17.81] | 11.75 [7.72, 16.76] | 8.76 [4.45, 14.02] |
+| 4 places, A2 | 12.92 [8.42, 18.16] | 15.41 [11.03, 20.37] | 14.72 [11.15, 18.98] | 11.35 [8.95, 14.29] | 8.31 [7.04, 9.57] | 3.59 [2.36, 4.99] |
+| 5 places, A0 | 40.58 [34.05, 47.07] | 48.77 [42.41, 55.08] | 38.93 [33.32, 44.62] | 22.57 [19.15, 26.27] | 16.06 [14.35, 17.88] | 2.61 [1.48, 3.98] |
+| 5 places, A1 | 7.92 [4.58, 12.13] | 9.94 [6.71, 13.95] | 8.00 [5.66, 10.75] | 5.89 [4.60, 7.32] | 5.10 [4.23, 6.02] | 3.97 [1.78, 6.80] |
+| 5 places, A2 | 7.74 [4.58, 11.70] | 9.38 [6.63, 12.58] | 8.50 [6.18, 11.12] | 6.02 [4.84, 7.27] | 5.42 [4.55, 6.32] | 2.61 [1.47, 4.04] |
+| 6 places, A0 | 25.85 [20.20, 31.87] | 34.93 [28.51, 41.55] | 26.98 [21.82, 32.52] | 14.73 [12.10, 17.60] | 9.66 [8.46, 10.94] | 2.32 [1.15, 3.71] |
+| 6 places, A1 | 5.49 [3.34, 7.97] | 5.62 [3.81, 7.70] | 5.03 [3.65, 6.57] | 4.13 [3.20, 5.18] | 3.94 [3.13, 4.82] | 2.32 [1.17, 3.68] |
+| 6 places, A2 | 5.51 [3.30, 7.94] | 5.74 [3.92, 7.80] | 5.22 [3.74, 6.87] | 4.45 [3.46, 5.48] | 4.15 [3.30, 5.02] | 2.32 [1.15, 3.72] |
+
+_make_tables_ma.py md5 da17fc3c39b028f5c8b359d56c0f6e0a; python 3.11.9, numpy 2.4.4, pandas 3.0.3._

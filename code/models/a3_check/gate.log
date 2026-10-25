@@ -1,0 +1,4 @@
+2026-10-25 16:45:49 [gate G1] 29464 values; largest difference from the environment received power 2.84e-14 dB
+2026-10-25 16:46:02 [gate G2] ok=True
+2026-10-25 16:46:44 [gate G3] ok=True
+2026-10-25 16:46:44 [gate] ok=True

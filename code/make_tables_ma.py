@@ -9,15 +9,19 @@ of v4 is written again unchanged, in the same order relative to the others; the 
 v6 (22 Oct 2026): one sentence under T4 and T5: each interval is its own scene bootstrap, so identical runs can show
 slightly different intervals. Nothing else changed.
 v7 (23 Oct 2026): T3 names the method "landing-state risk assignment" (LSRA), as chosen by Daya on 23 Oct. Nothing else changed.
+v8 (25 Oct 2026): the 3GPP A3 baseline (A3_RESULT.json, frozen check of 25 Oct). T3 gains one row (the five A3 arms);
+T2's statistics row names the 99 % intervals of the A3 family; new T6, the A3 rule at its five TR 36.839 settings, one
+row per load and admission model, with LSRA's entries taken from the same sources as T4. T1, T4 and T5 unchanged.
 
 T1  notation (as in the theory note v3)
 T2  parameters, read from the code at run time (each row names the constant it comes from)
 T3  arms and admission models
 T4  main results at 1.0 s: three admission models x three loads, with the registered verdicts
 T5  ablations and room for forecasting at 1.0 s
-Sources (md5 checked): ADMIT_RESULT.json, LOAD_RESULT.json, LOAD6_RESULT.json, HELDOUT_RESULT.json,
+T6  the 3GPP A3 rule at its five TR 36.839 settings, 1.0 s, with the registered verdicts HA1 and HA2
+Sources (md5 checked): ADMIT_RESULT.json, LOAD_RESULT.json, LOAD6_RESULT.json, HELDOUT_RESULT.json, A3_RESULT.json,
 method_heldout FREEZE.json.
-Outputs (tables_ma/): TABLES_MA.md, T2_PARAMETERS.csv, T4_MAIN_1s.csv, T5_ABLATIONS_1s.csv.
+Outputs (tables_ma/): TABLES_MA.md, T2_PARAMETERS.csv, T4_MAIN_1s.csv, T5_ABLATIONS_1s.csv, T6_A3_1s.csv.
 """
 import os, sys, json, csv, hashlib, platform
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -33,7 +37,8 @@ OUT = os.path.join(HERE, 'tables_ma')
 SRC = {'ADMIT': ('models/admission_check/ADMIT_RESULT.json', '803e1017a39ef1dcd4a6e9ea10ade9ad'),
        'LOAD': ('models/load_check/LOAD_RESULT.json', '0fb5845ca6b234261d7ca78363c5e730'),
        'LOAD6': ('models/load_check_c6/LOAD6_RESULT.json', '8e1860b938f69560610da9619e7bbc00'),
-       'HELDOUT': ('models/method_heldout/HELDOUT_RESULT.json', '9254d3e8964a4e49cd018d283d0837ef')}
+       'HELDOUT': ('models/method_heldout/HELDOUT_RESULT.json', '9254d3e8964a4e49cd018d283d0837ef'),
+       'A3': ('models/a3_check/A3_RESULT.json', '64426f3ce80be36d8aa465b69e4790e8')}
 NAME = {'METHOD': 'LSRA', 'R0': 'R0', 'R1': 'R1', 'R1i': 'R1i', 'R2': 'R2', 'R3': 'R3', 'R3F': 'R3F',
         'METHOD_oracle': 'LSRA, perfect forecast', 'ABL_nolanding': 'LSRA without the landing state',
         'ABL_worstcarfirst': 'LSRA with the worst-vehicle-first stage'}
@@ -87,6 +92,7 @@ T3_ARMS = [
     ('R1i', 'R1 counting vehicles on their way (landing load), updated after each decision in the slot.', 'rule; R1 with the landing count'),
     ('R2', 'Joint assignment of exactly the vehicles in outage (R0\'s movers) to the places left; others stay.', 'restricted joint assignment'),
     ('R3', 'Joint assignment of every present vehicle to the G·C places, each slot, on the current geometry and current stations.', 'full joint assignment'),
+    ('A3, Sets 1–5', '3GPP event A3: hand over to the strongest neighbour whose layer-3 filtered received power exceeds the serving station\'s by the A3 offset for the time-to-trigger; the five TR 36.839 calibration sets (Table 6).', 'today\'s standard trigger, blind to load'),
     ('R3F', 'R3 scoring each station by its mean received power at the landing slot, from the true future geometry.', 'reference; uses the future'),
     ('LSRA', 'Landing-state risk assignment: free vehicles only, quotas q_g, cost r̄ + β per move, one assignment per slot.', 'proposed method'),
     ('LSRA, perfect forecast', 'LSRA with the true future geometry in the risk window.', 'reference; uses the future'),
@@ -119,7 +125,7 @@ def t2_rows(beta, n_design, n_held, n_eps):
         ('Handover delay', ', '.join(f'{h * 0.1:.1f} s' for h in MHO.HLS) + f' (L = {", ".join(str(h) for h in MHO.HLS)} slots)', 'method_heldout.HLS'),
         ('LSRA', f'β = {beta}, H = L + 1, forecast held from slot t', 'FREEZE.json, lsra.py'),
         ('Scenes, episodes', f'{n_design} design and {n_held} held-out DAIR-V2X intersection scenes; {n_eps} episodes per cell', 'pools, SEEDS_heldout60.csv'),
-        ('Statistics', f'scene bootstrap, {RM.BOOT:,} resamples; 98.75 % for four-baseline families', 'remeasure_ma.BOOT')]
+        ('Statistics', f'scene bootstrap, {RM.BOOT:,} resamples; 98.75 % for four-baseline families, 99 % for the five A3 settings', 'remeasure_ma.BOOT')]
 
 
 def main():
@@ -131,7 +137,7 @@ def main():
     n_held = pd.read_csv(MHO.POOL_H, usecols=['scene_id'])['scene_id'].nunique()
     n_design = pd.read_csv(RM.POOL, usecols=['scene_id'])['scene_id'].nunique()
     n_eps = len(pd.read_csv(os.path.join(MHO.OUT, 'SEEDS_heldout60.csv')))
-    L = ['# Tables T1–T5 (multi-vehicle paper)', '',
+    L = ['# Tables T1–T6 (multi-vehicle paper)', '',
          'Made by `make_tables_ma.py` from the code and the finished result files only. Sources: ' +
          '; '.join(f'`{v[0]}` (md5 {v[1]})' for v in SRC.values()) + '.', '']
     L += ['## T1. Notation', ''] + md_table(['Symbol', 'Meaning'], T1) + ['']
@@ -192,6 +198,36 @@ def main():
           f"[{h3['scene_95'][0]:+.2f}, {h3['scene_95'][1]:+.2f}], {'held' if h3['held'] else 'not held'}.", '']
     with open(os.path.join(OUT, 'T5_ABLATIONS_1s.csv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f); w.writerow(['arm', 'places', 'model', 'worst', 'lo95', 'hi95', 'minus_LSRA', 'lo95_d', 'hi95_d'])
+        w.writerows(csvrows)
+    # T6 (v8): the 3GPP A3 rule at its five TR 36.839 settings, 1.0 s; LSRA's entries are those of T4
+    TA3 = R['A3']['secondary']['table']
+    sets = ['A3S1', 'A3S2', 'A3S3', 'A3S4', 'A3S5']
+    rows, csvrows = [], []
+    for T, c in TABS:
+        for A in ('A0', 'A1', 'A2'):
+            m = T[f'{A}_hl10_METHOD']
+            assert abs(TA3[f'{A}_C{c}_hl10_METHOD']['worst'] - m['worst']) < 1e-9, 'LSRA differs between the sources'
+            rows.append([f'{c} places, {A}'] + [ci(TA3[f'{A}_C{c}_hl10_{s}']) for s in sets] + [ci(m)])
+            for s in sets:
+                e = TA3[f'{A}_C{c}_hl10_{s}']
+                d = e['minus_METHOD_same_admission']
+                csvrows.append([s, c, A, e['worst'], e['scene_95'][0], e['scene_95'][1], e['ho_per_car_step'],
+                                e.get('refused_share', ''), d['mean'], d['scene_95'][0], d['scene_95'][1]])
+
+    def verdict(f):
+        return 'held' if f['held'] else 'not held (' + ', '.join(
+            'Set ' + s[-1] for s, v in f['per_set'].items() if not v['beats']) + ' not shown)'
+
+    L += ['## T6. The 3GPP A3 rule at its five TR 36.839 settings: worst-vehicle RLF at 1.0 s (%), 95 % scene intervals', '',
+          'Time-to-trigger, A3 offset and layer-3 filter coefficient K (TR 36.839, Table 5.3.2.1): Set 1 480 ms, 3 dB, 4; '
+          'Set 2 160 ms, 3 dB, 4; Set 3 160 ms, 2 dB, 1; Set 4 80 ms, 1 dB, 1; Set 5 40 ms, -1 dB, 0. LSRA as in T4. '
+          'Registered tests at 4 places, LSRA against all five sets with 99 % intervals (Bonferroni over five): '
+          f"HA1 (A2) {verdict(R['A3']['HA1_A2'])}; HA2 (A1) {verdict(R['A3']['HA2_A1'])}.", '']
+    L += md_table(['Places, admission'] + [f'Set {k}' for k in range(1, 6)] + ['LSRA'], rows) + ['']
+    with open(os.path.join(OUT, 'T6_A3_1s.csv'), 'w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['set', 'places', 'model', 'worst', 'lo95', 'hi95', 'ho_per_car_step', 'refused_share',
+                    'minus_LSRA', 'lo95_d', 'hi95_d'])
         w.writerows(csvrows)
     L += [f'_make_tables_ma.py md5 {md5(os.path.abspath(__file__))}; python {platform.python_version()}, '
           f'numpy {np.__version__}, pandas {pd.__version__}._']

@@ -1,0 +1,2 @@
+2026-10-25 16:44:27 analyse DONE
+2026-10-25 16:44:27 [dry] ok=True compared=1988 mismatches=0 checks={'M1_created_excess_under_A1_A2': 0, 'M3_loop_violations_A1': 0, 'M4_rows_where_starts_differ': 0, 'M5_all_cells_paired': True, 'ok': True}

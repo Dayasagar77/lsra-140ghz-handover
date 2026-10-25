@@ -2,7 +2,7 @@
 
 **Article:** "Landing State Risk Assignment with Coordinated Admission for Delayed Vehicle Handover at 140 GHz" (title chosen by Daya on 25 Oct 2026).
 **Authors:** Daya Sagar G and Deepa Nivethika S, School of Computer Science and Engineering, VIT Chennai.
-**Package prepared:** 22 Oct 2026, for the article's data availability statement. **25 Oct 2026:** MIT licence added; section numbers follow the submitted article. **Updated 23 Oct 2026:** the link-budget check (the weaker link, §8.6), and Figures 4–7 and Tables 4–5 with 6 places.
+**Package prepared:** 22 Oct 2026, for the article's data availability statement. **25 Oct 2026:** MIT licence added; section numbers follow the submitted article. **Updated 23 Oct 2026:** the link-budget check (the weaker link, §8.6), and Figures 4–7 and Tables 4–5 with 6 places. **Updated 25 Oct 2026 (release v1.1):** the 3GPP A3 baseline at the five TR 36.839 settings (§7, §8.1–8.2 and Table 5 of the article; `models/a3_check/`); the article's ablations table is now Table 6.
 **Licence:** MIT (see `LICENSE`). **Repository and archive DOI:** added by the authors when they publish this package.
 
 This package holds everything needed to check every number, figure and table in the article. It does **not** hold the V2X-Seq trajectory data or anything derived from them (see "Data").
@@ -16,12 +16,14 @@ This package holds everything needed to check every number, figure and table in 
 | `code/PREREG_LSRA_MethodTest_Dev45_Heldout60_DRAFT_v1_20261020.md` | The design-stage plan, including the rule that chose β = 0.05 before any test scene was used. |
 | `code/models/<test>/` | For each test: the per-episode results (CSV), the result files (`*_RESULT.json` and `.txt`), the freeze, gate and unit-test records, and the run logs. |
 | `code/figures_ma/` | Figures 1–7 (PDF with embedded fonts; PNG at 600 dpi). `FIG_DATA.csv` holds every plotted number, and `FIG_CHECK.txt` the checks run when the figures were drawn. |
-| `code/tables_ma/` | Tables 1–5 (`TABLES_MA.md`) and their CSV files. |
+| `code/tables_ma/` | Tables 1–6 (`TABLES_MA.md`) and their CSV files. In `TABLES_MA.md`, T5 is the article's Table 6 (ablations) and T6 its Table 5 (the A3 trigger). |
 | `code/data_ids/MANIFEST_heldout_val60_20261020.csv` | The 60 held-out scene ids, with the md5 and size of each raw trajectory file. |
 | `requirements.txt` | The exact package versions used. |
 | `MD5SUMS.txt` | The md5 of every file in this package. |
 
 **Not included from the link-budget check:** the dry run's output (`models/_dry_link/`, which holds the default-link data written under the variant names; a code check only, rebuilt by `_dry_link.py`), the geometry caches, and the `.partial` copies of the episode files (each is byte-identical to its final file).
+
+**Not included from the A3 check:** the dry run's output (`models/_dry_a3/`, which holds the stored R0, R1, R1i, R2 and R3 episodes relabelled as the five A3 settings; a code check only, rebuilt by `a3_check.py --mode dry`) and the `.partial` copies of the episode files (each is byte-identical to its final file).
 
 ### Which folder supports which result
 
@@ -34,6 +36,7 @@ This package holds everything needed to check every number, figure and table in 
 | §8.3, HL3, HL4 | the same at 6 places | `models/load_check_c6/` | `PREREG_MA_LoadCheck_LighterLoad_C6_FROZEN_20261022.md` |
 | §8.6 (handovers that finish at different times), HJ1, HJ2 | handovers that land at different times | `models/jitter_check/` | `PREREG_MA_DelayDifference_Jitter_FROZEN_20261020.md` |
 | §8.6 (a weaker link), HB1, HB2, HB3 | the main comparison (A2, 4 places) with a weaker link: 23 dBm, −8 dB, and both | `models/link_check/` | `PREREG_MA_LinkBudget_P23_T8_FROZEN_20261022.md` |
+| §7, §8.1–8.2, Table 5, HA1, HA2 | the 3GPP A3 trigger at the five TR 36.839 settings, under A0, A1 and A2, at 4, 5 and 6 places and four delays | `models/a3_check/` | `PREREG_MA_A3Baseline_FROZEN_20261025.md` |
 | §6 (complexity and decision time) | decision time per step | `models/timing/` | `PROTOCOL_Timing_DecisionTimePerStep_20261020.md` |
 | §8.3, 16-episode statement | A1 against A0 at 5 places, per episode | `models/load_check/CHECK_C5_A1vsA0_LSRA_episodes_20261022.*` | — (`check_c5_a1_episodes.py`, read-only) |
 
@@ -93,14 +96,17 @@ Run everything from `code/`. Each analysis refuses to overwrite its own result f
    python load_check_c6.py --mode analyse
    python jitter_check.py --mode analyse
    python link_check.py --mode analyse
+   python a3_check.py --mode analyse
    ```
 4. **The experiments themselves (need the pools).** Each runner has the modes listed in §9 of its pre-registration, run in order: `unit` (where present), `gate`, `freeze`, then `test`, one call per cell. Examples:
    ```
    python load_check_c6.py --mode test --adm A1 --hl 10
    python jitter_check.py --mode test --cap 4 --j 2
    python link_check.py --mode test --var P23 --hl 10
+   python a3_check.py --mode test --adm A2 --cap 4 --hl 10
    ```
    - The link-budget check's 23 dBm runs read their own geometry cache (`geom_cache_ma_p23`), which `link_check.py --mode warm` builds. Caches are not included. Each test run checks the cache's fingerprint against `models/link_check/LINK_FREEZE.json` and refuses to start on a different one.
+   - The A3 check's runner has the modes `unit`, `dry`, `gate0`, `gate`, `freeze`, `test` and `analyse` (§6 and §9 of its plan); its gate G0 reproduced stored episodes of all three earlier load levels before any A3 episode was run.
    - The code is deterministic: a re-run on the same machine and versions reproduces the stored episodes bit for bit.
    - The gates of the later runners (admission, load and delay-difference checks) confirmed this against the earlier runs before anything new was run.
 

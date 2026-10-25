@@ -18,4 +18,4 @@ Slot,0.1 s (DAIR-V2X frame rate),pool timestamps
 Handover delay,"0.2 s, 0.5 s, 1.0 s, 1.5 s (L = 2, 5, 10, 15 slots)",method_heldout.HLS
 LSRA,"β = 0.05, H = L + 1, forecast held from slot t","FREEZE.json, lsra.py"
 "Scenes, episodes",45 design and 60 held-out DAIR-V2X intersection scenes; 480 episodes per cell,"pools, SEEDS_heldout60.csv"
-Statistics,"scene bootstrap, 10,000 resamples; 98.75 % for four-baseline families",remeasure_ma.BOOT
+Statistics,"scene bootstrap, 10,000 resamples; 98.75 % for four-baseline families, 99 % for the five A3 settings",remeasure_ma.BOOT
