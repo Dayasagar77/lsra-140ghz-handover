@@ -1,0 +1,7 @@
+2026-10-20 20:56:14 timing start: arms ['METHOD', 'R1', 'R1i', 'R2', 'R3'], 480 episodes each, warm-up 3
+2026-10-20 20:57:13 METHOD: identical to frozen = True; 47520 decisions; median 0.105 ms, p99 0.421 ms, max 0.984 ms; wall 58 s
+2026-10-20 20:58:02 R1: identical to frozen = True; 47520 decisions; median 0.013 ms, p99 0.052 ms, max 0.637 ms; wall 49 s
+2026-10-20 20:58:52 R1i: identical to frozen = True; 47520 decisions; median 0.016 ms, p99 0.055 ms, max 3.000 ms; wall 49 s
+2026-10-20 20:59:42 R2: identical to frozen = True; 47520 decisions; median 0.018 ms, p99 0.073 ms, max 0.418 ms; wall 49 s
+2026-10-20 21:00:58 R3: identical to frozen = True; 47520 decisions; median 0.478 ms, p99 1.766 ms, max 4.139 ms; wall 76 s
+2026-10-20 21:00:58 timing done: all arms valid

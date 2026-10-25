@@ -1,0 +1,18 @@
+{
+ "written_utc": "2026-10-20 15:51:17",
+ "beta": 0.05,
+ "md5": {
+  "jitter_check.py": "62caddb202043b8bb5ea065803391206",
+  "paper2ma_env_jitter.py": "3bbfba25b54b28aca1f18023ccf57f58",
+  "paper2ma_env_admit.py": "5a644059a82ba06a73ad2f1f47968c90",
+  "admission_check.py": "1b16d561d8a1e14a715cc5b0dc5e8e95",
+  "PREREG_MA_DelayDifference_Jitter_FROZEN_20261020.md": "364ad710ab92d2a124a243fa2f0ab0d9",
+  "models/jitter_check/UNIT.json": "7c3f15b8d47212887f8594e688a60c0e",
+  "models/jitter_check/GATE.json": "7d5d918200a201d9119176ec38433bb6",
+  "models/method_heldout/FREEZE.json": "76f010f740673ef3fa66f4cf8914b0a5",
+  "models/admission_check/ADMIT_FREEZE.json": "e05b851e8a3ec295d314d1703196e6c5",
+  "models/load_check/LOAD_FREEZE.json": "67d3dca2005d7e3999201e59b02191af",
+  "models/admission_check/ADMIT_EPISODES_A2_hl10.csv": "d4ffa8795f9f6f267f6f068d3168d098",
+  "models/load_check/LOAD_EPISODES_C5_A2_hl10.csv": "bebe7a1c1c12ac4e0a73deaf216b1a4b"
+ }
+}

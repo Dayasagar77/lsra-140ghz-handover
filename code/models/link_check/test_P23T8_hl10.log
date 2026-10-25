@@ -1,0 +1,12 @@
+2026-10-23 22:38:57 test P23T8 hl=10 start (beta 0.05; link {'PT_MAX': 23.0, 'PT_MIN': 16.0, 'INTERF_PT_DBM': 23.0, 'SINR_OUT_DB': -8.0}; cache D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\geom_cache_ma_p23)
+2026-10-23 22:40:56 test P23T8 hl=10 R0 done (480 episodes, 119 s)
+2026-10-23 22:42:54 test P23T8 hl=10 R1 done (480 episodes, 118 s)
+2026-10-23 22:44:52 test P23T8 hl=10 R1i done (480 episodes, 118 s)
+2026-10-23 22:46:48 test P23T8 hl=10 R2 done (480 episodes, 116 s)
+2026-10-23 22:49:50 test P23T8 hl=10 R3 done (480 episodes, 182 s)
+2026-10-23 22:52:54 test P23T8 hl=10 R3F done (480 episodes, 185 s)
+2026-10-23 22:55:08 test P23T8 hl=10 METHOD done (480 episodes, 134 s)
+2026-10-23 22:58:19 test P23T8 hl=10 METHOD_oracle done (480 episodes, 191 s)
+2026-10-23 23:00:34 test P23T8 hl=10 ABL_nolanding done (480 episodes, 135 s)
+2026-10-23 23:02:30 test P23T8 hl=10 ABL_worstcarfirst done (480 episodes, 116 s)
+2026-10-23 23:02:30 test P23T8 hl=10 DONE

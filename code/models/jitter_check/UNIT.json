@@ -1,0 +1,76 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "U1": {
+  "J1_METHOD": {
+   "starts": 36,
+   "landings": 34,
+   "delays_in_range": true,
+   "some_early": true,
+   "some_late": true,
+   "landings_flown_equals_delay": true,
+   "flight_mismatch": 0
+  },
+  "J1_R3": {
+   "starts": 144,
+   "landings": 113,
+   "delays_in_range": true,
+   "some_early": true,
+   "some_late": true,
+   "landings_flown_equals_delay": true,
+   "flight_mismatch": 0
+  },
+  "J2_METHOD": {
+   "starts": 36,
+   "landings": 34,
+   "delays_in_range": true,
+   "some_early": true,
+   "some_late": true,
+   "landings_flown_equals_delay": true,
+   "flight_mismatch": 0
+  },
+  "J2_R3": {
+   "starts": 137,
+   "landings": 108,
+   "delays_in_range": true,
+   "some_early": true,
+   "some_late": true,
+   "landings_flown_equals_delay": true,
+   "flight_mismatch": 0
+  }
+ },
+ "U2": {
+  "same_seed_same_table": true,
+  "other_seed_other_table": true
+ },
+ "U3": {
+  "J1": {
+   "freq": [
+    0.33316015625,
+    0.33278125,
+    0.33405859375
+   ],
+   "within_0_01": true
+  },
+  "J2": {
+   "freq": [
+    0.19955989583333333,
+    0.20012630208333335,
+    0.19982421875,
+    0.19994010416666666,
+    0.20054947916666666
+   ],
+   "within_0_01": true
+  }
+ },
+ "U4": {
+  "starts": 42,
+  "all_equal_L": true,
+  "flight_mismatch": 0
+ },
+ "ok": true
+}

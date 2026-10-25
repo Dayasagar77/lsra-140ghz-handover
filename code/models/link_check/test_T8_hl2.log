@@ -1,0 +1,12 @@
+2026-10-23 22:14:00 test T8 hl=2 start (beta 0.05; link {'PT_MAX': 30.0, 'PT_MIN': 23.0, 'INTERF_PT_DBM': 30.0, 'SINR_OUT_DB': -8.0}; cache D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\geom_cache_ma)
+2026-10-23 22:16:03 test T8 hl=2 R0 done (480 episodes, 123 s)
+2026-10-23 22:18:01 test T8 hl=2 R1 done (480 episodes, 119 s)
+2026-10-23 22:20:02 test T8 hl=2 R1i done (480 episodes, 121 s)
+2026-10-23 22:21:54 test T8 hl=2 R2 done (480 episodes, 112 s)
+2026-10-23 22:25:00 test T8 hl=2 R3 done (480 episodes, 186 s)
+2026-10-23 22:28:05 test T8 hl=2 R3F done (480 episodes, 185 s)
+2026-10-23 22:30:15 test T8 hl=2 METHOD done (480 episodes, 130 s)
+2026-10-23 22:32:43 test T8 hl=2 METHOD_oracle done (480 episodes, 148 s)
+2026-10-23 22:34:56 test T8 hl=2 ABL_nolanding done (480 episodes, 134 s)
+2026-10-23 22:37:16 test T8 hl=2 ABL_worstcarfirst done (480 episodes, 139 s)
+2026-10-23 22:37:16 test T8 hl=2 DONE

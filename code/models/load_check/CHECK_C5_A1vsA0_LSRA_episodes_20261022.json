@@ -1,0 +1,252 @@
+{
+ "inputs": {
+  "A0": {
+   "path": "models/load_check/LOAD_EPISODES_C5_A0_hl10.csv",
+   "md5": "3c0ff4fb79898410ffe426d344177153"
+  },
+  "A1": {
+   "path": "models/load_check/LOAD_EPISODES_C5_A1_hl10.csv",
+   "md5": "7b9aa9c64d8a35849f664781691d2978"
+  }
+ },
+ "script_md5": "c113aa8a68303f0a79bfcddcb49c065f",
+ "arm": "METHOD",
+ "episodes": 480,
+ "totals": {
+  "A0": {
+   "starts": 1360.0,
+   "requests": 0.0,
+   "refused": 0.0,
+   "p_act": 651816.0
+  },
+  "A1": {
+   "starts": 1360.0,
+   "requests": 2688.0,
+   "refused": 1328.0,
+   "p_act": 651816.0
+  }
+ },
+ "mean_cost_A1_minus_A0_pp": 1.363636363636363,
+ "episodes_where_worst_differs": 16,
+ "episodes_where_starts_differ": 16,
+ "episodes_with_any_refusal_A1": 16,
+ "episodes_where_anything_differs": 16,
+ "scenes_where_anything_differs": [
+  "63129",
+  "89454"
+ ],
+ "cost_from_differing_episodes_pp": 1.363636363636363,
+ "share_of_cost_from_differing_episodes": 1.0,
+ "refused_total_A1": 1328.0,
+ "refused_in_differing_episodes": 1328.0,
+ "refused_per_differing_episode_max": 120.0,
+ "refused_per_differing_episode_mean": 83.0,
+ "by_scene": {
+  "63129": {
+   "episodes": 8,
+   "sum_d_worst_pp": 444.44444444444446,
+   "refused": 960.0,
+   "d_starts": -8.0
+  },
+  "89454": {
+   "episodes": 8,
+   "sum_d_worst_pp": 210.1010101010101,
+   "refused": 368.0,
+   "d_starts": 8.0
+  }
+ },
+ "per_episode": [
+  {
+   "seed": "930000023",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 66.66666666666666,
+   "d_worst_pp": 57.57575757575757,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000045",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 63.63636363636363,
+   "d_worst_pp": 54.54545454545454,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000053",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 63.63636363636363,
+   "d_worst_pp": 54.54545454545454,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000067",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 66.66666666666666,
+   "d_worst_pp": 57.57575757575757,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000084",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 66.66666666666666,
+   "d_worst_pp": 57.57575757575757,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000091",
+   "scene": "63129",
+   "worst_A0_pct": 7.07070707070707,
+   "worst_A1_pct": 57.57575757575758,
+   "d_worst_pp": 50.505050505050505,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000101",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 66.66666666666666,
+   "d_worst_pp": 57.57575757575757,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000121",
+   "scene": "63129",
+   "worst_A0_pct": 9.090909090909092,
+   "worst_A1_pct": 63.63636363636363,
+   "d_worst_pp": 54.54545454545454,
+   "starts_A0": 6.0,
+   "starts_A1": 5.0,
+   "requests_A1": 125.0,
+   "refused_A1": 120.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000026",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000055",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000074",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000152",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000214",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000336",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000337",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  },
+  {
+   "seed": "930000402",
+   "scene": "89454",
+   "worst_A0_pct": 8.080808080808081,
+   "worst_A1_pct": 34.34343434343434,
+   "d_worst_pp": 26.26262626262626,
+   "starts_A0": 2.0,
+   "starts_A1": 3.0,
+   "requests_A1": 49.0,
+   "refused_A1": 46.0,
+   "loop_violations_A1": 0.0
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+LOAD CHECK, THIRD LEVEL: 6 places per station (16 vehicles, 24 places), the three admission models
+(60 held-out DAIR scenes, 480 episodes per cell, the frozen arms and seeds)
+
+must-hold checks: {'M1_created_excess_total': 0, 'M2_same_as_A0_under_A2': {'hl2_R1': True, 'hl2_R1i': True, 'hl2_METHOD': True, 'hl2_METHOD_oracle': True, 'hl2_ABL_worstcarfirst': True, 'hl5_R1': True, 'hl5_R1i': True, 'hl5_METHOD': True, 'hl5_METHOD_oracle': True, 'hl5_ABL_worstcarfirst': True, 'hl10_R1': True, 'hl10_R1i': True, 'hl10_METHOD': True, 'hl10_METHOD_oracle': True, 'hl10_ABL_worstcarfirst': True, 'hl15_R1': True, 'hl15_R1i': True, 'hl15_METHOD': True, 'hl15_METHOD_oracle': True, 'hl15_ABL_worstcarfirst': True}, 'M3_loop_violations': 0, 'M4_rows_where_starts_differ': 0, 'ok': True}
+
+HL3, A1 per-request admission (1.0 s; baseline minus METHOD, worst-vehicle RLF pp; 98.75 % scene interval):
+  R1: +0.01 [-0.37, +0.33] -> not shown
+  R1i: +0.02 [-0.38, +0.36] -> not shown
+  R2: +0.12 [-0.06, +0.44] -> not shown
+  R3: +1.62 [+0.01, +3.43] -> BEATS
+  NOT HELD
+HL4, A2 coordinated admission (1.0 s; baseline minus METHOD, worst-vehicle RLF pp; 98.75 % scene interval):
+  R1: +0.01 [-0.39, +0.34] -> not shown
+  R1i: +0.02 [-0.37, +0.36] -> not shown
+  R2: +0.12 [-0.06, +0.45] -> not shown
+  R3: +1.60 [+0.02, +3.28] -> BEATS
+  NOT HELD
+
+A0: arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/vehicle-step @1.0 s | refused share @1.0 s
+  R0 | 0.51 [0.33, 0.71] | 1.60 [0.97, 2.29] | 2.97 [1.72, 4.42] | 3.98 [2.28, 5.91] | 0.0013 | 0.000
+  R1 | 0.43 [0.26, 0.62] | 1.24 [0.66, 1.91] | 2.33 [1.14, 3.77] | 2.96 [1.39, 4.83] | 0.0013 | 0.000
+  R1i | 0.43 [0.25, 0.62] | 1.24 [0.67, 1.90] | 2.34 [1.18, 3.77] | 2.94 [1.39, 4.79] | 0.0013 | 0.000
+  R2 | 0.41 [0.24, 0.60] | 1.33 [0.74, 2.00] | 2.51 [1.30, 3.95] | 3.06 [1.56, 4.87] | 0.0013 | 0.000
+  R3 | 0.86 [0.59, 1.16] | 2.56 [1.80, 3.41] | 4.99 [3.38, 6.73] | 6.17 [4.21, 8.34] | 0.0107 | 0.000
+  R3F | 0.63 [0.37, 0.93] | 1.78 [1.13, 2.51] | 3.79 [2.51, 5.22] | 4.43 [3.01, 5.98] | 0.0110 | 0.000
+  METHOD | 0.35 [0.19, 0.53] | 1.20 [0.63, 1.87] | 2.32 [1.15, 3.71] | 3.07 [1.45, 5.00] | 0.0017 | 0.000
+  METHOD_oracle | 0.04 [0.00, 0.11] | 0.10 [0.00, 0.23] | 0.45 [0.10, 0.95] | 0.86 [0.17, 1.85] | 0.0012 | 0.000
+  ABL_nolanding | 0.37 [0.20, 0.56] | 1.31 [0.69, 2.03] | 2.52 [1.28, 3.98] | 3.01 [1.46, 4.90] | 0.0018 | 0.000
+  ABL_worstcarfirst | 0.36 [0.24, 0.49] | 1.48 [0.96, 2.05] | 2.93 [1.92, 4.08] | 4.00 [2.60, 5.53] | 0.0227 | 0.000
+
+A1: arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/vehicle-step @1.0 s | refused share @1.0 s
+  R0 | 0.40 [0.23, 0.58] | 1.21 [0.64, 1.85] | 2.29 [1.15, 3.68] | 2.94 [1.41, 4.81] | 0.0011 | 0.126
+  R1 | 0.43 [0.25, 0.61] | 1.24 [0.67, 1.92] | 2.33 [1.14, 3.77] | 2.96 [1.42, 4.88] | 0.0013 | 0.000
+  R1i | 0.43 [0.25, 0.62] | 1.24 [0.66, 1.90] | 2.34 [1.15, 3.76] | 2.94 [1.38, 4.81] | 0.0013 | 0.000
+  R2 | 0.41 [0.24, 0.60] | 1.30 [0.71, 2.00] | 2.45 [1.25, 3.87] | 3.00 [1.45, 4.89] | 0.0012 | 0.069
+  R3 | 0.82 [0.55, 1.15] | 2.19 [1.50, 2.95] | 3.95 [2.54, 5.50] | 4.87 [3.23, 6.74] | 0.0103 | 0.429
+  R3F | 0.54 [0.32, 0.80] | 1.63 [0.99, 2.34] | 2.95 [1.89, 4.15] | 3.45 [2.16, 4.87] | 0.0107 | 0.426
+  METHOD | 0.35 [0.19, 0.54] | 1.20 [0.63, 1.86] | 2.32 [1.17, 3.68] | 3.07 [1.48, 4.97] | 0.0017 | 0.000
+  METHOD_oracle | 0.04 [0.00, 0.11] | 0.10 [0.00, 0.23] | 0.45 [0.10, 0.93] | 0.86 [0.17, 1.84] | 0.0012 | 0.000
+  ABL_nolanding | 0.39 [0.21, 0.60] | 1.31 [0.67, 2.05] | 2.43 [1.25, 3.88] | 3.01 [1.47, 4.81] | 0.0017 | 0.027
+  ABL_worstcarfirst | 1.42 [0.47, 2.81] | 1.69 [1.01, 2.58] | 3.02 [1.83, 4.40] | 4.22 [2.66, 5.97] | 0.0224 | 0.155
+
+A2: arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/vehicle-step @1.0 s | refused share @1.0 s
+  R0 | 0.40 [0.23, 0.58] | 1.21 [0.65, 1.86] | 2.29 [1.16, 3.64] | 2.94 [1.40, 4.80] | 0.0011 | 0.126
+  R1 | 0.43 [0.25, 0.62] | 1.24 [0.66, 1.91] | 2.33 [1.14, 3.81] | 2.96 [1.39, 4.86] | 0.0013 | 0.000
+  R1i | 0.43 [0.25, 0.62] | 1.24 [0.67, 1.90] | 2.34 [1.13, 3.79] | 2.94 [1.41, 4.82] | 0.0013 | 0.000
+  R2 | 0.41 [0.24, 0.60] | 1.30 [0.72, 1.99] | 2.45 [1.25, 3.90] | 3.00 [1.47, 4.83] | 0.0012 | 0.069
+  R3 | 0.85 [0.58, 1.16] | 2.39 [1.64, 3.19] | 3.92 [2.47, 5.50] | 5.25 [3.43, 7.26] | 0.0105 | 0.190
+  R3F | 0.59 [0.34, 0.87] | 1.55 [0.95, 2.22] | 2.86 [1.84, 4.06] | 4.09 [2.60, 5.68] | 0.0108 | 0.168
+  METHOD | 0.35 [0.19, 0.53] | 1.20 [0.63, 1.86] | 2.32 [1.15, 3.72] | 3.07 [1.50, 4.96] | 0.0017 | 0.000
+  METHOD_oracle | 0.04 [0.00, 0.11] | 0.10 [0.00, 0.23] | 0.45 [0.10, 0.94] | 0.86 [0.17, 1.86] | 0.0012 | 0.000
+  ABL_nolanding | 0.39 [0.21, 0.60] | 1.31 [0.69, 2.06] | 2.43 [1.27, 3.85] | 3.01 [1.47, 4.83] | 0.0017 | 0.027
+  ABL_worstcarfirst | 0.36 [0.24, 0.49] | 1.48 [0.98, 2.05] | 2.93 [1.91, 4.06] | 4.00 [2.59, 5.58] | 0.0227 | 0.000
+
+every arm minus METHOD, same admission (95 % scene intervals):
+  A0 0.2 s: R0 +0.16 [+0.06, +0.28]  R1 +0.07 [+0.03, +0.14]  R1i +0.07 [+0.02, +0.14]  R2 +0.06 [+0.00, +0.13]  R3 +0.51 [+0.27, +0.77]  R3F +0.28 [-0.03, +0.61]  METHOD_oracle -0.31 [-0.48, -0.17]  ABL_nolanding +0.02 [+0.00, +0.06]  ABL_worstcarfirst +0.01 [-0.14, +0.14]
+  A0 0.5 s: R0 +0.40 [+0.07, +0.81]  R1 +0.04 [-0.05, +0.13]  R1i +0.04 [-0.05, +0.13]  R2 +0.13 [+0.03, +0.24]  R3 +1.37 [+0.72, +2.06]  R3F +0.58 [-0.30, +1.45]  METHOD_oracle -1.10 [-1.74, -0.57]  ABL_nolanding +0.11 [+0.00, +0.28]  ABL_worstcarfirst +0.28 [-0.35, +0.84]
+  A0 1.0 s: R0 +0.64 [+0.06, +1.31]  R1 +0.01 [-0.28, +0.26]  R1i +0.02 [-0.27, +0.29]  R2 +0.19 [+0.01, +0.44]  R3 +2.67 [+1.23, +4.19]  R3F +1.47 [-0.07, +2.97]  METHOD_oracle -1.88 [-3.03, -0.93]  ABL_nolanding +0.19 [+0.00, +0.50]  ABL_worstcarfirst +0.60 [-0.35, +1.47]
+  A0 1.5 s: R0 +0.90 [+0.02, +1.93]  R1 -0.11 [-0.50, +0.14]  R1i -0.13 [-0.52, +0.10]  R2 -0.02 [-0.47, +0.34]  R3 +3.10 [+1.42, +4.83]  R3F +1.36 [-0.48, +3.10]  METHOD_oracle -2.21 [-3.65, -1.03]  ABL_nolanding -0.07 [-0.51, +0.31]  ABL_worstcarfirst +0.93 [-0.26, +2.06]
+  A1 0.2 s: R0 +0.05 [+0.01, +0.08]  R1 +0.07 [+0.03, +0.14]  R1i +0.07 [+0.03, +0.14]  R2 +0.06 [+0.00, +0.13]  R3 +0.47 [+0.23, +0.76]  R3F +0.19 [-0.08, +0.46]  METHOD_oracle -0.31 [-0.48, -0.17]  ABL_nolanding +0.04 [+0.00, +0.11]  ABL_worstcarfirst +1.06 [+0.15, +2.43]
+  A1 0.5 s: R0 +0.01 [-0.11, +0.10]  R1 +0.04 [-0.05, +0.13]  R1i +0.04 [-0.05, +0.13]  R2 +0.10 [+0.01, +0.21]  R3 +0.99 [+0.39, +1.64]  R3F +0.44 [-0.47, +1.32]  METHOD_oracle -1.10 [-1.74, -0.56]  ABL_nolanding +0.11 [+0.00, +0.28]  ABL_worstcarfirst +0.49 [-0.28, +1.33]
+  A1 1.0 s: R0 -0.04 [-0.30, +0.14]  R1 +0.01 [-0.28, +0.27]  R1i +0.02 [-0.28, +0.28]  R2 +0.12 [-0.03, +0.36]  R3 +1.62 [+0.37, +2.99]  R3F +0.62 [-0.90, +2.12]  METHOD_oracle -1.88 [-3.01, -0.94]  ABL_nolanding +0.11 [+0.00, +0.33]  ABL_worstcarfirst +0.70 [-0.35, +1.75]
+  A1 1.5 s: R0 -0.13 [-0.51, +0.10]  R1 -0.11 [-0.50, +0.14]  R1i -0.13 [-0.52, +0.09]  R2 -0.07 [-0.52, +0.27]  R3 +1.79 [+0.37, +3.28]  R3F +0.38 [-1.41, +2.11]  METHOD_oracle -2.21 [-3.63, -1.04]  ABL_nolanding -0.07 [-0.51, +0.31]  ABL_worstcarfirst +1.14 [-0.14, +2.40]
+  A2 0.2 s: R0 +0.05 [+0.01, +0.08]  R1 +0.07 [+0.02, +0.14]  R1i +0.07 [+0.02, +0.14]  R2 +0.06 [+0.00, +0.13]  R3 +0.50 [+0.27, +0.76]  R3F +0.24 [-0.04, +0.53]  METHOD_oracle -0.31 [-0.48, -0.17]  ABL_nolanding +0.04 [+0.00, +0.11]  ABL_worstcarfirst +0.01 [-0.13, +0.14]
+  A2 0.5 s: R0 +0.01 [-0.11, +0.10]  R1 +0.04 [-0.05, +0.13]  R1i +0.04 [-0.05, +0.13]  R2 +0.10 [+0.01, +0.21]  R3 +1.19 [+0.57, +1.88]  R3F +0.35 [-0.54, +1.21]  METHOD_oracle -1.10 [-1.75, -0.56]  ABL_nolanding +0.11 [+0.00, +0.28]  ABL_worstcarfirst +0.28 [-0.36, +0.84]
+  A2 1.0 s: R0 -0.04 [-0.29, +0.14]  R1 +0.01 [-0.28, +0.26]  R1i +0.02 [-0.27, +0.28]  R2 +0.12 [-0.03, +0.36]  R3 +1.60 [+0.37, +2.87]  R3F +0.54 [-0.95, +2.05]  METHOD_oracle -1.88 [-3.00, -0.91]  ABL_nolanding +0.11 [+0.00, +0.33]  ABL_worstcarfirst +0.60 [-0.35, +1.51]
+  A2 1.5 s: R0 -0.13 [-0.51, +0.10]  R1 -0.11 [-0.51, +0.13]  R1i -0.13 [-0.52, +0.10]  R2 -0.07 [-0.51, +0.27]  R3 +2.18 [+0.68, +3.75]  R3F +1.02 [-0.91, +2.90]  METHOD_oracle -2.21 [-3.55, -1.03]  ABL_nolanding -0.07 [-0.51, +0.31]  ABL_worstcarfirst +0.93 [-0.26, +2.09]
+
+causes of the worst vehicle at 1.0 s:
+  A0 R0: A 0.00  L 0.66  F 0.02  W 2.28  B 0.01
+  A0 R1: A 0.00  L 0.00  F 0.00  W 2.33  B 0.00
+  A0 R1i: A 0.00  L 0.00  F 0.00  W 2.34  B 0.00
+  A0 R2: A 0.00  L 0.31  F 0.01  W 2.19  B 0.00
+  A0 R3: A 0.00  L 3.32  F 0.00  W 1.68  B 0.00
+  A0 R3F: A 0.00  L 3.26  F 0.03  W 0.39  B 0.11
+  A0 METHOD: A 0.00  L 0.00  F 0.00  W 2.29  B 0.04
+  A0 METHOD_oracle: A 0.00  L 0.03  F 0.00  W 0.32  B 0.09
+  A0 ABL_nolanding: A 0.00  L 0.24  F 0.00  W 2.24  B 0.04
+  A0 ABL_worstcarfirst: A 0.00  L 0.36  F 0.00  W 2.53  B 0.04
+  A1 R0: A 0.00  L 0.00  F 0.00  W 2.28  B 0.01
+  A1 R1: A 0.00  L 0.00  F 0.00  W 2.33  B 0.00
+  A1 R1i: A 0.00  L 0.00  F 0.00  W 2.34  B 0.00
+  A1 R2: A 0.00  L 0.25  F 0.01  W 2.19  B 0.00
+  A1 R3: A 0.00  L 2.12  F 0.00  W 1.83  B 0.00
+  A1 R3F: A 0.00  L 2.09  F 0.21  W 0.51  B 0.15
+  A1 METHOD: A 0.00  L 0.00  F 0.00  W 2.29  B 0.04
+  A1 METHOD_oracle: A 0.00  L 0.03  F 0.00  W 0.32  B 0.09
+  A1 ABL_nolanding: A 0.00  L 0.15  F 0.00  W 2.24  B 0.04
+  A1 ABL_worstcarfirst: A 0.00  L 0.31  F 0.00  W 2.43  B 0.29
+  A2 R0: A 0.00  L 0.00  F 0.00  W 2.28  B 0.01
+  A2 R1: A 0.00  L 0.00  F 0.00  W 2.33  B 0.00
+  A2 R1i: A 0.00  L 0.00  F 0.00  W 2.34  B 0.00
+  A2 R2: A 0.00  L 0.25  F 0.01  W 2.19  B 0.00
+  A2 R3: A 0.00  L 1.96  F 0.00  W 1.82  B 0.14
+  A2 R3F: A 0.00  L 2.16  F 0.03  W 0.53  B 0.15
+  A2 METHOD: A 0.00  L 0.00  F 0.00  W 2.29  B 0.04
+  A2 METHOD_oracle: A 0.00  L 0.03  F 0.00  W 0.32  B 0.09
+  A2 ABL_nolanding: A 0.00  L 0.15  F 0.00  W 2.24  B 0.04
+  A2 ABL_worstcarfirst: A 0.00  L 0.36  F 0.00  W 2.53  B 0.04
+
+contrasts (95 % scene intervals):
+  hl2_METHOD_A1_minus_A2: +0.00 [+0.00, +0.00]
+  hl2_R3_A1_minus_A0: -0.04 [-0.10, +0.02]
+  hl2_R3_A2_minus_A0: -0.01 [-0.02, +0.00]
+  hl5_METHOD_A1_minus_A2: +0.00 [+0.00, +0.00]
+  hl5_R3_A1_minus_A0: -0.37 [-0.65, -0.15]
+  hl5_R3_A2_minus_A0: -0.17 [-0.33, -0.04]
+  hl10_METHOD_A1_minus_A2: +0.00 [+0.00, +0.00]
+  hl10_R3_A1_minus_A0: -1.05 [-1.94, -0.25]
+  hl10_R3_A2_minus_A0: -1.07 [-1.84, -0.46]
+  hl15_METHOD_A1_minus_A2: +0.00 [+0.00, +0.00]
+  hl15_R3_A1_minus_A0: -1.31 [-2.19, -0.53]
+  hl15_R3_A2_minus_A0: -0.92 [-1.70, -0.29]
+  A0_METHOD_6places_minus_5places_1s: -0.29 [-0.75, +0.13]
+  A0_METHOD_6places_minus_4places_1s: -1.27 [-2.01, -0.59]
+  A0_R1_6places_minus_5places_1s: -2.31 [-5.88, -0.29]
+  A0_R1_6places_minus_4places_1s: -6.86 [-11.83, -2.73]
+  A0_R1i_6places_minus_5places_1s: -2.16 [-5.67, -0.15]
+  A0_R1i_6places_minus_4places_1s: -6.73 [-11.84, -2.69]
+  A0_R2_6places_minus_5places_1s: -2.24 [-5.63, -0.16]
+  A0_R2_6places_minus_4places_1s: -5.68 [-10.46, -2.04]
+  A0_R3_6places_minus_5places_1s: -1.29 [-2.62, -0.00]
+  A0_R3_6places_minus_4places_1s: -3.57 [-5.15, -2.02]
+  A1_METHOD_6places_minus_5places_1s: -1.65 [-4.15, +0.01]
+  A1_METHOD_6places_minus_4places_1s: -6.44 [-11.68, -2.42]
+  A1_R1_6places_minus_5places_1s: -2.28 [-5.64, -0.28]
+  A1_R1_6places_minus_4places_1s: -6.93 [-12.04, -2.92]
+  A1_R1i_6places_minus_5places_1s: -2.16 [-5.57, -0.15]
+  A1_R1i_6places_minus_4places_1s: -6.73 [-11.75, -2.66]
+  A1_R2_6places_minus_5places_1s: -2.01 [-5.50, +0.00]
+  A1_R2_6places_minus_4places_1s: -6.67 [-11.83, -2.63]
+  A1_R3_6places_minus_5places_1s: -2.16 [-4.45, -0.47]
+  A1_R3_6places_minus_4places_1s: -6.87 [-12.24, -2.69]
+  A2_METHOD_6places_minus_5places_1s: -0.29 [-0.75, +0.12]
+  A2_METHOD_6places_minus_4places_1s: -1.27 [-2.03, -0.60]
+  A2_R1_6places_minus_5places_1s: -2.28 [-5.74, -0.27]
+  A2_R1_6places_minus_4places_1s: -6.93 [-12.02, -2.87]
+  A2_R1i_6places_minus_5places_1s: -2.16 [-5.56, -0.16]
+  A2_R1i_6places_minus_4places_1s: -6.73 [-11.92, -2.68]
+  A2_R2_6places_minus_5places_1s: -2.01 [-5.46, +0.01]
+  A2_R2_6places_minus_4places_1s: -5.78 [-10.57, -2.18]
+  A2_R3_6places_minus_5places_1s: -1.17 [-2.22, -0.12]
+  A2_R3_6places_minus_4places_1s: -2.78 [-4.04, -1.51]
+
+load curve at 1.0 s, baseline minus METHOD (95 % scene intervals; descriptive):
+  A0_4places_R1_minus_METHOD: +5.60 [+1.83, +10.26]
+  A0_4places_R1i_minus_METHOD: +5.48 [+1.72, +10.02]
+  A0_4places_R2_minus_METHOD: +4.59 [+1.30, +8.94]
+  A0_4places_R3_minus_METHOD: +4.97 [+3.15, +6.79]
+  A0_5places_R1_minus_METHOD: +2.04 [+0.21, +5.15]
+  A0_5places_R1i_minus_METHOD: +1.89 [+0.10, +4.96]
+  A0_5places_R2_minus_METHOD: +2.14 [+0.29, +5.21]
+  A0_5places_R3_minus_METHOD: +3.68 [+2.32, +5.02]
+  A0_6places_R1_minus_METHOD: +0.01 [-0.28, +0.27]
+  A0_6places_R1i_minus_METHOD: +0.02 [-0.28, +0.28]
+  A0_6places_R2_minus_METHOD: +0.19 [+0.01, +0.44]
+  A0_6places_R3_minus_METHOD: +2.67 [+1.23, +4.18]
+  A1_4places_R1_minus_METHOD: +0.50 [+0.05, +0.99]
+  A1_4places_R1i_minus_METHOD: +0.32 [-0.18, +0.81]
+  A1_4places_R2_minus_METHOD: +0.35 [-0.03, +0.75]
+  A1_4places_R3_minus_METHOD: +2.06 [+0.59, +3.50]
+  A1_5places_R1_minus_METHOD: +0.64 [-1.50, +3.12]
+  A1_5places_R1i_minus_METHOD: +0.53 [-1.64, +2.99]
+  A1_5places_R2_minus_METHOD: +0.49 [-1.64, +2.95]
+  A1_5places_R3_minus_METHOD: +2.13 [+0.55, +3.63]
+  A1_6places_R1_minus_METHOD: +0.01 [-0.29, +0.27]
+  A1_6places_R1i_minus_METHOD: +0.02 [-0.27, +0.28]
+  A1_6places_R2_minus_METHOD: +0.12 [-0.03, +0.37]
+  A1_6places_R3_minus_METHOD: +1.62 [+0.34, +2.99]
+  A2_4places_R1_minus_METHOD: +5.67 [+2.02, +10.41]
+  A2_4places_R1i_minus_METHOD: +5.48 [+1.73, +10.17]
+  A2_4places_R2_minus_METHOD: +4.64 [+1.34, +9.02]
+  A2_4places_R3_minus_METHOD: +3.11 [+1.57, +4.53]
+  A2_5places_R1_minus_METHOD: +2.00 [+0.22, +5.14]
+  A2_5places_R1i_minus_METHOD: +1.89 [+0.10, +4.98]
+  A2_5places_R2_minus_METHOD: +1.85 [+0.09, +4.92]
+  A2_5places_R3_minus_METHOD: +2.48 [+1.24, +3.69]
+  A2_6places_R1_minus_METHOD: +0.01 [-0.29, +0.27]
+  A2_6places_R1i_minus_METHOD: +0.02 [-0.28, +0.28]
+  A2_6places_R2_minus_METHOD: +0.12 [-0.03, +0.37]
+  A2_6places_R3_minus_METHOD: +1.60 [+0.37, +2.89]
+
+decision: {'outcome': 'HL4 not held: at load 0.67 the method is not shown to beat all four baselines even with coordinated admission; the claim is limited to full and near-full load', 'HL3_held': False, 'HL4_held': False}
+guesses: {'METHOD_A2_1s_between_1p5_and_3': True, 'R1i_A2_1s_between_3_and_5': False, 'METHOD_A1_minus_A2_1s_below_0p5pp': True, 'HL3_held': False, 'HL4_held': False}

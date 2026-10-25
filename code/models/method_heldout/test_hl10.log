@@ -1,0 +1,12 @@
+2026-10-20 12:58:32 test hl=10 start (beta 0.05)
+2026-10-20 12:59:39 test hl=10 R0 done (480 episodes, 67 s)
+2026-10-20 13:00:44 test hl=10 R1 done (480 episodes, 66 s)
+2026-10-20 13:01:52 test hl=10 R1i done (480 episodes, 68 s)
+2026-10-20 13:03:00 test hl=10 R2 done (480 episodes, 68 s)
+2026-10-20 13:04:38 test hl=10 R3 done (480 episodes, 98 s)
+2026-10-20 13:06:26 test hl=10 R3F done (480 episodes, 108 s)
+2026-10-20 13:07:35 test hl=10 METHOD done (480 episodes, 69 s)
+2026-10-20 13:09:22 test hl=10 METHOD_oracle done (480 episodes, 107 s)
+2026-10-20 13:10:40 test hl=10 ABL_nolanding done (480 episodes, 78 s)
+2026-10-20 13:11:50 test hl=10 ABL_worstcarfirst done (480 episodes, 70 s)
+2026-10-20 13:11:50 test hl=10 DONE

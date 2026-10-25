@@ -1,0 +1,117 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "cases": [
+  {
+   "name": "swap between two full stations",
+   "A1": [],
+   "A2": [
+    0,
+    1
+   ],
+   "A1_expected": [],
+   "A2_expected": [
+    0,
+    1
+   ],
+   "A1_refused_are_loops": true,
+   "ok": true
+  },
+  {
+   "name": "chain into a free place, listed in the worst order",
+   "A1": [
+    0,
+    1
+   ],
+   "A2": [
+    0,
+    1
+   ],
+   "A1_expected": [
+    0,
+    1
+   ],
+   "A2_expected": [
+    0,
+    1
+   ],
+   "ok": true
+  },
+  {
+   "name": "two requests for one free place (stronger wins)",
+   "A1": [
+    1
+   ],
+   "A2": [
+    1
+   ],
+   "A1_expected": [
+    1
+   ],
+   "A2_expected": [
+    1
+   ],
+   "ok": true
+  },
+  {
+   "name": "into a station over capacity after an appearance",
+   "A1": [],
+   "A2": [],
+   "A1_expected": [],
+   "A2_expected": [],
+   "ok": true
+  },
+  {
+   "name": "closed loop plus a chain",
+   "A1": [
+    2
+   ],
+   "A2": [
+    0,
+    1,
+    2
+   ],
+   "A1_expected": [
+    2
+   ],
+   "A2_expected": [
+    0,
+    1,
+    2
+   ],
+   "A1_refused_are_loops": true,
+   "ok": true
+  },
+  {
+   "name": "coordinated keeps the largest feasible part",
+   "A1": [],
+   "A2": [
+    0,
+    1
+   ],
+   "A1_expected": [],
+   "A2_expected": [
+    0,
+    1
+   ],
+   "ok": true
+  }
+ ],
+ "random": {
+  "n": 500,
+  "cases_where_loop_property_applies": 161,
+  "mismatches": {
+   "A2_not_largest": 0,
+   "A2_tiebreak": 0,
+   "A2_excess": 0,
+   "A1_excess": 0,
+   "A1_more_than_A2": 0,
+   "A1_refused_not_loops": 0
+  }
+ },
+ "ok": true
+}

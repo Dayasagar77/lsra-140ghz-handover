@@ -1,0 +1,38 @@
+HELD-OUT TEST (60 new DAIR val scenes, 480 episodes per cell, capacity-aware attachment)
+method = landing-state assignment, total risk + beta per move, beta = 0.05
+
+HM1 (1.0 s; baseline minus METHOD, worst-car RLF pp; 98.75 % scene interval):
+  R1: +5.60 [+1.15, +11.85] -> BEATS
+  R1i: +5.48 [+0.96, +11.68] -> BEATS
+  R2: +4.59 [+0.81, +10.46] -> BEATS
+  R3: +4.97 [+2.52, +7.32] -> BEATS
+HM1 HELD; mechanism check {'dec_over_total': 0, 'land_over_total': 0, 'ok': True}
+HM3 (R3 cost of delay minus METHOD cost, 1.0 - 0.2 s): {'mean': 4.418826515803695, 'scene_95': [2.640294840171461, 6.14677582774951]}
+METHOD minus R3 at 0.2 s: {'mean': -0.5509481564243224, 'scene_95': [-0.8737975440301271, -0.2514605450730357]}
+
+arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/car-step @1.0 s | created excess /1000 @1.0 s
+R0 | 8.35 [4.40, 13.16] | 9.13 [5.73, 13.34] | 11.61 [7.93, 16.08] | 13.02 [9.15, 17.46] | 0.0028 | 1.53
+R1 | 7.26 [3.15, 12.36] | 7.99 [3.88, 13.00] | 9.19 [4.93, 14.41] | 10.48 [6.00, 15.89] | 0.0008 | 0.09
+R1i | 7.22 [3.13, 12.36] | 7.93 [3.81, 12.93] | 9.08 [4.71, 14.27] | 10.47 [5.92, 15.80] | 0.0008 | 0.00
+R2 | 6.24 [2.69, 10.72] | 6.97 [3.37, 11.52] | 8.19 [4.37, 12.89] | 9.84 [5.67, 14.92] | 0.0009 | 0.08
+R3 | 1.01 [0.71, 1.33] | 4.14 [3.40, 4.89] | 8.56 [6.84, 10.39] | 11.40 [9.28, 13.58] | 0.0170 | 1.91
+R3F | 0.88 [0.60, 1.20] | 3.47 [2.70, 4.29] | 8.45 [6.85, 10.17] | 11.83 [9.55, 14.28] | 0.0172 | 2.10
+METHOD | 0.46 [0.30, 0.64] | 1.74 [1.17, 2.40] | 3.59 [2.38, 4.99] | 5.10 [3.27, 7.11] | 0.0028 | 0.00
+METHOD_oracle | 0.04 [0.00, 0.11] | 0.36 [0.15, 0.60] | 1.36 [0.69, 2.13] | 2.28 [1.15, 3.56] | 0.0025 | 0.00
+ABL_nolanding | 0.60 [0.40, 0.81] | 2.68 [1.85, 3.59] | 6.65 [4.56, 8.96] | 8.30 [5.60, 11.30] | 0.0041 | 0.90
+ABL_worstcarfirst | 0.37 [0.23, 0.53] | 1.98 [1.50, 2.48] | 5.05 [3.64, 6.72] | 7.11 [5.48, 8.85] | 0.0248 | 0.00
+
+causes of the worst car at 1.0 s:
+R0: A 0.80  L 8.23  F 0.08  W 2.49  B 0.02
+R1: A 0.09  L 0.77  F 0.00  W 1.94  B 6.39
+R1i: A 0.09  L 0.64  F 0.00  W 1.91  B 6.44
+R2: A 0.00  L 0.89  F 0.00  W 2.03  B 5.27
+R3: A 0.36  L 6.33  F 0.21  W 1.64  B 0.02
+R3F: A 0.19  L 7.38  F 0.10  W 0.73  B 0.05
+METHOD: A 0.07  L 0.21  F 0.00  W 3.27  B 0.04
+METHOD_oracle: A 0.00  L 0.54  F 0.00  W 0.78  B 0.04
+ABL_nolanding: A 0.20  L 4.06  F 0.07  W 2.28  B 0.04
+ABL_worstcarfirst: A 0.25  L 2.64  F 0.00  W 2.15  B 0.00
+
+decision: {'HM1_held': True, 'landing_state_not_what_helps': False}
+guesses: {'method_1s_between_3_and_5': True, 'R3_1s_between_9_and_11': False, 'beats_all_four': True, 'nolanding_close_to_R3': False, 'method_within_0_5_of_R3_at_0_2': False, 'method_hands_over_more_than_R1_R2': True}

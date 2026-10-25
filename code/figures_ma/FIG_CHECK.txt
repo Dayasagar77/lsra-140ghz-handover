@@ -1,0 +1,35 @@
+make_figs_ma.py md5 dbc333c65fe81ba91b359d8dcd041658
+python 3.11.9, numpy 2.4.4, matplotlib 3.10.9
+font used: C:\Windows\Fonts\arial.ttf
+sources: models/admission_check/ADMIT_RESULT.json md5 803e1017a39ef1dcd4a6e9ea10ade9ad; models/load_check/LOAD_RESULT.json md5 0fb5845ca6b234261d7ca78363c5e730; models/load_check_c6/LOAD6_RESULT.json md5 8e1860b938f69560610da9619e7bbc00
+numbers written to FIG_DATA.csv: 444
+
+causes add up to the worst-vehicle RLF in every entry drawn: True
+LSRA and R1i identical under A0 and A2 (all three loads, all delays): True
+4 places, 1.0 s, R1 against R1i (R1 is not drawn in F4, F6, F7):
+  A0: R1 9.19  R1i 9.08
+  A1: R1 9.26  R1i 9.08
+  A2: R1 9.26  R1i 9.08
+5 places, 1.0 s, R1 against R1i (R1 is not drawn in F4, F6, F7):
+  A0: R1 4.65  R1i 4.50
+  A1: R1 4.61  R1i 4.50
+  A2: R1 4.61  R1i 4.50
+6 places, 1.0 s, R1 against R1i (R1 is not drawn in F4, F6, F7):
+  A0: R1 2.33  R1i 2.34
+  A1: R1 2.33  R1i 2.34
+  A2: R1 2.33  R1i 2.34
+HR1_A1 (4 places) held = False (RESULT document: False)
+HR2_A2 (4 places) held = True (RESULT document: True)
+HL1_A1 (5 places) held = False (RESULT document: False)
+HL2_A2 (5 places) held = True (RESULT document: True)
+HL3_A1 (6 places) held = False (RESULT document: False)
+HL4_A2 (6 places) held = False (RESULT document: False)
+LSRA 4 places A1 1.0 s = 8.76 (RESULT document: 8.76)
+LSRA 4 places A2 1.0 s = 3.59 (RESULT document: 3.59)
+LSRA 5 places A1 1.0 s = 3.97 (RESULT document: 3.97)
+LSRA 5 places A2 1.0 s = 2.61 (RESULT document: 2.61)
+LSRA 5 places A0 1.0 s = 2.61 (RESULT document: 2.61)
+LSRA 6 places A0 1.0 s = 2.32 (RESULT document: 2.32)
+LSRA 6 places A1 1.0 s = 2.32 (RESULT document: 2.32)
+LSRA 6 places A2 1.0 s = 2.32 (RESULT document: 2.32)
+ALL CHECKS PASS: True

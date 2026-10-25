@@ -1,0 +1,44 @@
+{
+ "rule": "first match: >= 10 vehicles in the frame, link to the nearest station blocked by a vehicle >= 2.5 m tall, knife-edge loss >= 15.0 dB; scenes in frozen seed-list order",
+ "scene": "67409",
+ "timestamp": 1655864278.3,
+ "car": "598937",
+ "vehicles_in_frame": 41,
+ "station": "NE",
+ "link_length_m": 145.25508609615764,
+ "loss_db": 35.50759706208045,
+ "height_above_ray_m": 0.8896004464645522,
+ "knife_edge_distance_m": 4.143431666495669,
+ "blocker": {
+  "type": "TRUCK",
+  "length": 9.52153873443604,
+  "width": 2.5,
+  "height": 2.51796388626099
+ },
+ "car_height_m": 1.40317761898041,
+ "links": [
+  {
+   "station": "SW",
+   "dist_m": 173.64821013612774,
+   "depth_db": 0.0
+  },
+  {
+   "station": "SE",
+   "dist_m": 148.3641221369952,
+   "depth_db": 0.0
+  },
+  {
+   "station": "NW",
+   "dist_m": 170.99949760979334,
+   "depth_db": 0.0
+  },
+  {
+   "station": "NE",
+   "dist_m": 145.25508609615764,
+   "depth_db": 35.50759706208045
+  }
+ ],
+ "ue_antenna_m": 1.5,
+ "station_height_m": 6.0,
+ "margin_m": 5.0
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\load_check_c6.py", line 345, in <module>
+    gate_mode()
+  File "D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\load_check_c6.py", line 98, in gate_mode
+    per_b[name] = bool(AC.equal_frames(new.reset_index(drop=True), old.reset_index(drop=True)))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\admission_check.py", line 93, in equal_frames
+    elif not np.array_equal(x.astype(float), y.astype(float)):
+                            ^^^^^^^^^^^^^^^
+  File "C:\Users\gdaya\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\arrays\string_.py", line 942, in astype
+    values = arr.astype(dtype)
+             ^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'R0'

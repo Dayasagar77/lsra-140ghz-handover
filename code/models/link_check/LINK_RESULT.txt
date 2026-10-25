@@ -1,0 +1,131 @@
+LINK-BUDGET CHECK: 4 places, coordinated admission (A2), the 60 held-out scenes, 480 episodes per cell
+variants: {'P23': {'pt': 23.0, 'thr': None}, 'T8': {'pt': None, 'thr': -8.0}, 'P23T8': {'pt': 23.0, 'thr': -8.0}}
+
+must-hold checks: {'M1_created_excess_total': 0, 'M2_refusals_of_landing_state_planners': {'P23_hl2_METHOD': 0, 'P23_hl2_METHOD_oracle': 0, 'P23_hl2_ABL_worstcarfirst': 0, 'P23_hl2_R1i': 0, 'P23_hl5_METHOD': 0, 'P23_hl5_METHOD_oracle': 0, 'P23_hl5_ABL_worstcarfirst': 0, 'P23_hl5_R1i': 0, 'P23_hl10_METHOD': 0, 'P23_hl10_METHOD_oracle': 0, 'P23_hl10_ABL_worstcarfirst': 0, 'P23_hl10_R1i': 0, 'P23_hl15_METHOD': 0, 'P23_hl15_METHOD_oracle': 0, 'P23_hl15_ABL_worstcarfirst': 0, 'P23_hl15_R1i': 0, 'T8_hl2_METHOD': 0, 'T8_hl2_METHOD_oracle': 0, 'T8_hl2_ABL_worstcarfirst': 0, 'T8_hl2_R1i': 0, 'T8_hl5_METHOD': 0, 'T8_hl5_METHOD_oracle': 0, 'T8_hl5_ABL_worstcarfirst': 0, 'T8_hl5_R1i': 0, 'T8_hl10_METHOD': 0, 'T8_hl10_METHOD_oracle': 0, 'T8_hl10_ABL_worstcarfirst': 0, 'T8_hl10_R1i': 0, 'T8_hl15_METHOD': 0, 'T8_hl15_METHOD_oracle': 0, 'T8_hl15_ABL_worstcarfirst': 0, 'T8_hl15_R1i': 0, 'P23T8_hl2_METHOD': 0, 'P23T8_hl2_METHOD_oracle': 0, 'P23T8_hl2_ABL_worstcarfirst': 0, 'P23T8_hl2_R1i': 0, 'P23T8_hl5_METHOD': 0, 'P23T8_hl5_METHOD_oracle': 0, 'P23T8_hl5_ABL_worstcarfirst': 0, 'P23T8_hl5_R1i': 0, 'P23T8_hl10_METHOD': 0, 'P23T8_hl10_METHOD_oracle': 0, 'P23T8_hl10_ABL_worstcarfirst': 0, 'P23T8_hl10_R1i': 0, 'P23T8_hl15_METHOD': 0, 'P23T8_hl15_METHOD_oracle': 0, 'P23T8_hl15_ABL_worstcarfirst': 0, 'P23T8_hl15_R1i': 0}, 'M4_rows_where_starts_differ': 0, 'ok': True}
+
+HB1, 23 dBm (1.0 s; baseline minus METHOD, worst-vehicle RLF pp; 98.75 % scene interval):
+  R1: +6.09 [+1.34, +12.89] -> BEATS
+  R1i: +5.93 [+1.23, +12.26] -> BEATS
+  R2: +4.95 [+0.95, +11.09] -> BEATS
+  R3: +2.88 [+0.95, +4.62] -> BEATS
+  HELD
+HB2, -8 dB threshold (1.0 s; baseline minus METHOD, worst-vehicle RLF pp; 98.75 % scene interval):
+  R1: +6.93 [+2.19, +13.59] -> BEATS
+  R1i: +6.77 [+2.06, +13.50] -> BEATS
+  R2: +3.88 [+1.57, +6.91] -> BEATS
+  R3: +2.21 [+0.36, +3.88] -> BEATS
+  HELD
+HB3, both (1.0 s; baseline minus METHOD, worst-vehicle RLF pp; 98.75 % scene interval):
+  R1: +9.38 [+4.46, +15.88] -> BEATS
+  R1i: +8.88 [+3.94, +15.29] -> BEATS
+  R2: +6.09 [+3.95, +8.74] -> BEATS
+  R3: +2.00 [+0.10, +3.93] -> BEATS
+  HELD
+
+P23: arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/vehicle-step @1.0 s
+  R0 | 8.16 [3.82, 13.43] | 8.93 [4.51, 14.30] | 10.06 [5.51, 15.56] | 11.25 [6.52, 16.85] | 0.0008
+  R1 | 8.00 [3.69, 13.41] | 8.79 [4.34, 14.27] | 10.36 [5.82, 15.86] | 12.02 [7.11, 17.75] | 0.0008
+  R1i | 8.00 [3.63, 13.42] | 8.78 [4.47, 14.12] | 10.20 [5.68, 15.83] | 11.98 [7.06, 17.64] | 0.0009
+  R2 | 7.03 [3.26, 11.81] | 7.78 [3.98, 12.67] | 9.22 [5.14, 14.31] | 10.86 [6.46, 16.16] | 0.0010
+  R3 | 1.10 [0.79, 1.44] | 3.84 [3.07, 4.64] | 7.15 [5.73, 8.65] | 9.75 [7.75, 11.89] | 0.0161
+  R3F | 0.84 [0.57, 1.15] | 3.00 [2.29, 3.74] | 6.70 [5.30, 8.18] | 9.68 [7.41, 12.16] | 0.0163
+  METHOD | 0.55 [0.37, 0.75] | 2.08 [1.45, 2.81] | 4.27 [2.98, 5.78] | 6.00 [4.04, 8.21] | 0.0031
+  METHOD_oracle | 0.04 [0.00, 0.13] | 0.35 [0.15, 0.60] | 1.58 [0.85, 2.39] | 2.43 [1.29, 3.81] | 0.0027
+  ABL_nolanding | 0.60 [0.40, 0.81] | 2.26 [1.53, 3.04] | 4.73 [3.29, 6.36] | 6.53 [4.29, 9.01] | 0.0029
+  ABL_worstcarfirst | 0.51 [0.32, 0.75] | 2.26 [1.77, 2.79] | 5.24 [4.00, 6.55] | 7.19 [5.63, 8.83] | 0.0220
+
+T8: arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/vehicle-step @1.0 s
+  R0 | 8.66 [4.54, 13.85] | 9.89 [5.65, 15.25] | 11.54 [7.11, 16.94] | 12.82 [8.15, 18.28] | 0.0014
+  R1 | 8.80 [4.37, 14.21] | 9.94 [5.47, 15.40] | 12.15 [7.55, 17.51] | 14.14 [9.25, 19.88] | 0.0015
+  R1i | 8.83 [4.39, 14.20] | 9.88 [5.43, 15.10] | 11.99 [7.38, 17.58] | 14.32 [9.50, 20.02] | 0.0016
+  R2 | 5.52 [3.38, 7.91] | 6.81 [4.63, 9.34] | 9.10 [6.54, 12.14] | 11.49 [8.22, 15.13] | 0.0020
+  R3 | 1.39 [1.06, 1.76] | 4.10 [3.36, 4.88] | 7.43 [6.02, 8.94] | 10.03 [8.07, 12.10] | 0.0161
+  R3F | 1.12 [0.82, 1.46] | 3.19 [2.48, 3.93] | 6.93 [5.55, 8.38] | 9.95 [7.72, 12.44] | 0.0163
+  METHOD | 0.98 [0.71, 1.28] | 2.77 [2.10, 3.47] | 5.22 [3.85, 6.65] | 7.67 [5.66, 9.85] | 0.0043
+  METHOD_oracle | 0.34 [0.13, 0.61] | 0.73 [0.43, 1.07] | 1.96 [1.24, 2.75] | 3.12 [1.87, 4.56] | 0.0037
+  ABL_nolanding | 1.06 [0.79, 1.37] | 3.21 [2.44, 4.05] | 6.56 [4.82, 8.40] | 9.60 [6.86, 12.80] | 0.0040
+  ABL_worstcarfirst | 0.76 [0.53, 1.02] | 2.59 [2.08, 3.13] | 5.53 [4.19, 7.07] | 8.75 [6.92, 10.65] | 0.0250
+
+P23T8: arm | 0.2 s | 0.5 s | 1.0 s | 1.5 s | handovers/vehicle-step @1.0 s
+  R0 | 9.50 [5.66, 14.29] | 11.44 [7.59, 16.43] | 14.21 [10.18, 19.21] | 16.19 [11.90, 21.24] | 0.0042
+  R1 | 10.05 [5.55, 15.48] | 12.15 [7.82, 17.40] | 15.37 [10.88, 20.69] | 18.72 [14.06, 24.14] | 0.0043
+  R1i | 9.82 [5.42, 15.38] | 12.03 [7.62, 17.42] | 14.86 [10.41, 20.14] | 17.14 [12.48, 22.72] | 0.0061
+  R2 | 4.98 [3.39, 7.03] | 7.64 [5.89, 9.72] | 12.08 [9.83, 14.46] | 14.93 [12.32, 17.69] | 0.0080
+  R3 | 1.67 [1.27, 2.07] | 4.46 [3.70, 5.25] | 7.99 [6.56, 9.49] | 10.76 [8.77, 12.90] | 0.0161
+  R3F | 1.34 [0.99, 1.74] | 3.42 [2.68, 4.19] | 7.20 [5.80, 8.67] | 10.28 [7.97, 12.78] | 0.0163
+  METHOD | 1.21 [0.85, 1.62] | 3.01 [2.31, 3.75] | 5.99 [4.55, 7.50] | 7.81 [5.80, 10.06] | 0.0070
+  METHOD_oracle | 0.63 [0.31, 1.02] | 1.32 [0.86, 1.82] | 3.12 [2.14, 4.16] | 5.06 [3.50, 6.72] | 0.0061
+  ABL_nolanding | 1.42 [1.05, 1.84] | 3.73 [2.93, 4.55] | 7.68 [5.78, 9.75] | 9.67 [7.30, 12.26] | 0.0061
+  ABL_worstcarfirst | 1.10 [0.81, 1.46] | 3.08 [2.50, 3.68] | 6.05 [4.91, 7.17] | 8.46 [6.64, 10.41] | 0.0226
+
+every arm minus METHOD, 1.0 s (95 % scene intervals):
+  P23: R0 +5.79 [+1.89, +10.82]  R1 +6.09 [+2.12, +11.17]  R1i +5.93 [+1.97, +10.93]  R2 +4.95 [+1.45, +9.53]  R3 +2.88 [+1.40, +4.26]  R3F +2.43 [+0.74, +4.11]  METHOD_oracle -2.69 [-3.92, -1.62]  ABL_nolanding +0.46 [+0.15, +0.85]  ABL_worstcarfirst +0.97 [-0.42, +2.32]
+  T8: R0 +6.32 [+2.43, +11.41]  R1 +6.93 [+2.91, +11.95]  R1i +6.77 [+2.73, +11.91]  R2 +3.88 [+1.94, +6.16]  R3 +2.21 [+0.79, +3.55]  R3F +1.71 [+0.09, +3.38]  METHOD_oracle -3.26 [-4.54, -2.08]  ABL_nolanding +1.34 [+0.54, +2.37]  ABL_worstcarfirst +0.31 [-1.14, +1.98]
+  P23T8: R0 +8.22 [+4.58, +12.94]  R1 +9.38 [+5.33, +14.37]  R1i +8.88 [+4.73, +13.91]  R2 +6.09 [+4.37, +8.09]  R3 +2.00 [+0.53, +3.49]  R3F +1.21 [-0.65, +3.15]  METHOD_oracle -2.87 [-4.27, -1.58]  ABL_nolanding +1.70 [+0.78, +2.85]  ABL_worstcarfirst +0.06 [-1.13, +1.22]
+
+causes of the worst vehicle at 1.0 s:
+  P23 R0: A 0.03  L 0.80  F 0.00  W 2.11  B 7.12
+  P23 R1: A 0.10  L 0.59  F 0.00  W 2.33  B 7.33
+  P23 R1i: A 0.10  L 0.59  F 0.00  W 2.33  B 7.18
+  P23 R2: A 0.04  L 0.68  F 0.00  W 2.40  B 6.10
+  P23 R3: A 0.03  L 3.76  F 0.42  W 2.72  B 0.21
+  P23 R3F: A 0.03  L 5.55  F 0.02  W 1.05  B 0.05
+  P23 METHOD: A 0.10  L 0.17  F 0.00  W 3.95  B 0.04
+  P23 METHOD_oracle: A 0.00  L 0.44  F 0.00  W 1.03  B 0.11
+  P23 ABL_nolanding: A 0.00  L 0.93  F 0.07  W 3.62  B 0.10
+  P23 ABL_worstcarfirst: A 0.00  L 2.22  F 0.00  W 2.97  B 0.04
+  T8 R0: A 0.05  L 1.72  F 0.00  W 2.39  B 7.38
+  T8 R1: A 0.18  L 1.59  F 0.03  W 2.55  B 7.81
+  T8 R1i: A 0.12  L 1.54  F 0.05  W 2.63  B 7.65
+  T8 R2: A 0.10  L 1.61  F 0.04  W 3.22  B 4.12
+  T8 R3: A 0.03  L 3.73  F 0.42  W 2.85  B 0.40
+  T8 R3F: A 0.03  L 5.55  F 0.02  W 1.10  B 0.23
+  T8 METHOD: A 0.13  L 0.52  F 0.01  W 4.35  B 0.21
+  T8 METHOD_oracle: A 0.00  L 0.68  F 0.00  W 0.97  B 0.31
+  T8 ABL_nolanding: A 0.00  L 2.49  F 0.00  W 3.74  B 0.33
+  T8 ABL_worstcarfirst: A 0.16  L 2.27  F 0.00  W 2.96  B 0.14
+  P23T8 R0: A 0.19  L 4.32  F 0.12  W 2.54  B 7.04
+  P23T8 R1: A 0.26  L 4.34  F 0.03  W 2.46  B 8.27
+  P23T8 R1i: A 0.11  L 3.27  F 0.08  W 2.68  B 8.72
+  P23T8 R2: A 0.44  L 4.13  F 0.07  W 4.85  B 2.59
+  P23T8 R3: A 0.03  L 3.65  F 0.42  W 3.30  B 0.58
+  P23T8 R3F: A 0.07  L 5.54  F 0.02  W 1.25  B 0.33
+  P23T8 METHOD: A 0.15  L 1.02  F 0.00  W 4.42  B 0.39
+  P23T8 METHOD_oracle: A 0.09  L 1.24  F 0.04  W 1.02  B 0.72
+  P23T8 ABL_nolanding: A 0.23  L 2.96  F 0.00  W 3.93  B 0.55
+  P23T8 ABL_worstcarfirst: A 0.14  L 2.24  F 0.00  W 3.40  B 0.26
+
+variant minus default link, same arm and seeds, 1.0 s (95 % scene intervals):
+  P23_minus_default_1s_R0: +1.00 [+0.54, +1.56]
+  P23_minus_default_1s_R1: +1.09 [+0.65, +1.66]
+  P23_minus_default_1s_R1i: +1.12 [+0.66, +1.67]
+  P23_minus_default_1s_R2: +0.99 [+0.55, +1.51]
+  P23_minus_default_1s_R3: +0.45 [+0.24, +0.69]
+  P23_minus_default_1s_R3F: +0.15 [+0.05, +0.27]
+  P23_minus_default_1s_METHOD: +0.68 [+0.44, +0.95]
+  P23_minus_default_1s_METHOD_oracle: +0.22 [-0.02, +0.46]
+  P23_minus_default_1s_ABL_nolanding: +0.29 [-0.46, +0.93]
+  P23_minus_default_1s_ABL_worstcarfirst: +0.19 [-1.49, +1.61]
+  T8_minus_default_1s_R0: +2.48 [+1.19, +3.75]
+  T8_minus_default_1s_R1: +2.89 [+1.95, +3.97]
+  T8_minus_default_1s_R1i: +2.91 [+2.03, +3.91]
+  T8_minus_default_1s_R2: +0.87 [-1.67, +2.85]
+  T8_minus_default_1s_R3: +0.73 [+0.45, +1.05]
+  T8_minus_default_1s_R3F: +0.39 [+0.19, +0.62]
+  T8_minus_default_1s_METHOD: +1.63 [+1.03, +2.25]
+  T8_minus_default_1s_METHOD_oracle: +0.60 [+0.30, +0.92]
+  T8_minus_default_1s_ABL_nolanding: +2.13 [+0.96, +3.34]
+  T8_minus_default_1s_ABL_worstcarfirst: +0.48 [-0.03, +0.93]
+  P23T8_minus_default_1s_R0: +5.14 [+3.05, +7.04]
+  P23T8_minus_default_1s_R1: +6.11 [+4.70, +7.59]
+  P23T8_minus_default_1s_R1i: +5.79 [+4.44, +7.17]
+  P23T8_minus_default_1s_R2: +3.85 [+0.17, +6.91]
+  P23T8_minus_default_1s_R3: +1.29 [+0.85, +1.78]
+  P23T8_minus_default_1s_R3F: +0.65 [+0.37, +0.98]
+  P23T8_minus_default_1s_METHOD: +2.39 [+1.48, +3.31]
+  P23T8_minus_default_1s_METHOD_oracle: +1.76 [+1.06, +2.52]
+  P23T8_minus_default_1s_ABL_nolanding: +3.25 [+1.55, +5.05]
+  P23T8_minus_default_1s_ABL_worstcarfirst: +1.00 [-0.77, +2.46]
+
+decision: {'outcome': 'the main comparison holds at 23 dBm, at the 3GPP -8 dB threshold, and with both', 'HB1_P23': True, 'HB2_T8': True, 'HB3_P23T8': True}
+guesses: {'METHOD_P23_1s_between_4_and_10': True, 'METHOD_T8_1s_between_4_and_10': True, 'METHOD_P23T8_1s_between_8_and_25': False, 'HB1_held': True, 'HB2_held': True, 'HB3_held': True}

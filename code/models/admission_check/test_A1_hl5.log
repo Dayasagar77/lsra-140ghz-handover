@@ -1,0 +1,12 @@
+2026-10-20 13:46:00 test A1 hl=5 start (beta 0.05)
+2026-10-20 13:47:07 test A1 hl=5 R0 done (480 episodes, 66 s)
+2026-10-20 13:48:09 test A1 hl=5 R1 done (480 episodes, 63 s)
+2026-10-20 13:49:14 test A1 hl=5 R1i done (480 episodes, 64 s)
+2026-10-20 13:50:03 test A1 hl=5 R2 done (480 episodes, 49 s)
+2026-10-20 13:51:03 test A1 hl=5 R3 done (480 episodes, 61 s)
+2026-10-20 13:52:15 test A1 hl=5 R3F done (480 episodes, 72 s)
+2026-10-20 13:53:29 test A1 hl=5 METHOD done (480 episodes, 74 s)
+2026-10-20 13:54:53 test A1 hl=5 METHOD_oracle done (480 episodes, 84 s)
+2026-10-20 13:56:00 test A1 hl=5 ABL_nolanding done (480 episodes, 67 s)
+2026-10-20 13:57:16 test A1 hl=5 ABL_worstcarfirst done (480 episodes, 76 s)
+2026-10-20 13:57:16 test A1 hl=5 DONE

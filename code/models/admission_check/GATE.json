@@ -1,0 +1,23 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "n_seeds": 40,
+ "hl": 10,
+ "per_arm": {
+  "R0": true,
+  "R1": true,
+  "R1i": true,
+  "R2": true,
+  "R3": true,
+  "R3F": true,
+  "METHOD": true,
+  "METHOD_oracle": true,
+  "ABL_nolanding": true,
+  "ABL_worstcarfirst": true
+ },
+ "ok": true
+}

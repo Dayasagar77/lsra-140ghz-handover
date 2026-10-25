@@ -1,0 +1,12 @@
+2026-10-20 14:29:13 test C5 A0 hl=10 start (beta 0.05)
+2026-10-20 14:30:12 test C5 A0 hl=10 R0 done (480 episodes, 59 s)
+2026-10-20 14:31:09 test C5 A0 hl=10 R1 done (480 episodes, 57 s)
+2026-10-20 14:32:07 test C5 A0 hl=10 R1i done (480 episodes, 58 s)
+2026-10-20 14:33:08 test C5 A0 hl=10 R2 done (480 episodes, 61 s)
+2026-10-20 14:34:44 test C5 A0 hl=10 R3 done (480 episodes, 96 s)
+2026-10-20 14:36:33 test C5 A0 hl=10 R3F done (480 episodes, 109 s)
+2026-10-20 14:37:45 test C5 A0 hl=10 METHOD done (480 episodes, 72 s)
+2026-10-20 14:39:26 test C5 A0 hl=10 METHOD_oracle done (480 episodes, 101 s)
+2026-10-20 14:40:34 test C5 A0 hl=10 ABL_nolanding done (480 episodes, 68 s)
+2026-10-20 14:41:52 test C5 A0 hl=10 ABL_worstcarfirst done (480 episodes, 78 s)
+2026-10-20 14:41:52 test C5 A0 hl=10 DONE

@@ -1,0 +1,12 @@
+2026-10-20 13:57:43 test A2 hl=15 start (beta 0.05)
+2026-10-20 13:58:45 test A2 hl=15 R0 done (480 episodes, 62 s)
+2026-10-20 13:59:45 test A2 hl=15 R1 done (480 episodes, 60 s)
+2026-10-20 14:00:48 test A2 hl=15 R1i done (480 episodes, 63 s)
+2026-10-20 14:01:51 test A2 hl=15 R2 done (480 episodes, 63 s)
+2026-10-20 14:03:23 test A2 hl=15 R3 done (480 episodes, 92 s)
+2026-10-20 14:05:03 test A2 hl=15 R3F done (480 episodes, 100 s)
+2026-10-20 14:06:11 test A2 hl=15 METHOD done (480 episodes, 68 s)
+2026-10-20 14:08:01 test A2 hl=15 METHOD_oracle done (480 episodes, 110 s)
+2026-10-20 14:09:13 test A2 hl=15 ABL_nolanding done (480 episodes, 72 s)
+2026-10-20 14:10:18 test A2 hl=15 ABL_worstcarfirst done (480 episodes, 64 s)
+2026-10-20 14:10:18 test A2 hl=15 DONE

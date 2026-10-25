@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article and this archive."
+title: "Code and results for Landing State Risk Assignment with Coordinated Admission for Delayed Vehicle Handover at 140 GHz"
+type: software
+authors:
+  - given-names: "Daya Sagar"
+    family-names: "G"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+    orcid: "https://orcid.org/0009-0006-8912-4959"
+  - given-names: "Deepa Nivethika"
+    family-names: "S"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+    orcid: "https://orcid.org/0000-0002-6530-1731"
+license: MIT
+version: "1.0"

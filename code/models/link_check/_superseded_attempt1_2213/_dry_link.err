@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\_dry_link.py", line 9, in <module>
+    import link_check as L
+  File "D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\code\link_check.py", line 61, in <module>
+    assert abs(D0['SINR_OUT_DB'] - (-13.8)) < 1e-9, D0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'PT_MAX': 30.0, 'PT_MIN': 23.0, 'INTERF_PT_DBM': 30.0, 'SINR_OUT_DB': -13.822435032652734}

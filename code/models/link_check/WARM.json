@@ -1,0 +1,19 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "runner_md5": "b3195de3a26e204b7bdbb7a34abc4c49",
+ "scenes": 60,
+ "seconds": 490.6,
+ "complete": true,
+ "default_cache_complete": true,
+ "geometry_identical_to_default_cache": true,
+ "bg_ratio_max_rel_error": 2.886579864025407e-15,
+ "bg_entries_compared": 19068,
+ "digest_p23": "014cb3fce7aa13b8d275a0dd5fb9b4c0",
+ "digest_default": "99ae7a993b15292dc42b58424f474713",
+ "ok": true
+}

@@ -1,0 +1,11 @@
+2026-10-20 14:26:32 [gate] R0: identical to the frozen run = True (5 s)
+2026-10-20 14:26:36 [gate] R1: identical to the frozen run = True (4 s)
+2026-10-20 14:26:41 [gate] R1i: identical to the frozen run = True (5 s)
+2026-10-20 14:26:45 [gate] R2: identical to the frozen run = True (4 s)
+2026-10-20 14:26:52 [gate] R3: identical to the frozen run = True (7 s)
+2026-10-20 14:26:59 [gate] R3F: identical to the frozen run = True (7 s)
+2026-10-20 14:27:03 [gate] METHOD: identical to the frozen run = True (5 s)
+2026-10-20 14:27:10 [gate] METHOD_oracle: identical to the frozen run = True (7 s)
+2026-10-20 14:27:15 [gate] ABL_nolanding: identical to the frozen run = True (5 s)
+2026-10-20 14:27:20 [gate] ABL_worstcarfirst: identical to the frozen run = True (5 s)
+2026-10-20 14:27:20 [gate] ok=True

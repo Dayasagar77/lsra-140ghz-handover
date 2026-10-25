@@ -1,0 +1,21 @@
+{
+ "written_utc": "2026-10-22 15:30:48",
+ "beta": 0.05,
+ "cap": 6,
+ "md5": {
+  "load_check_c6.py": "0fd5c89341953df37c03ef58852a0bca",
+  "admission_check.py": "1b16d561d8a1e14a715cc5b0dc5e8e95",
+  "paper2ma_env_admit.py": "5a644059a82ba06a73ad2f1f47968c90",
+  "PREREG_MA_LoadCheck_LighterLoad_C6_FROZEN_20261022.md": "0f1a5eff5decbcac34467aa67875dc3d",
+  "models/load_check_c6/GATE.json": "1aa93fed8c4fa838e8c068729d2ac8b7",
+  "models/method_heldout/FREEZE.json": "76f010f740673ef3fa66f4cf8914b0a5",
+  "models/admission_check/ADMIT_FREEZE.json": "e05b851e8a3ec295d314d1703196e6c5",
+  "models/load_check/LOAD_FREEZE.json": "67d3dca2005d7e3999201e59b02191af",
+  "models/load_check/LOAD_EPISODES_C5_A0_hl10.csv": "3c0ff4fb79898410ffe426d344177153",
+  "models/load_check/LOAD_EPISODES_C5_A1_hl10.csv": "7b9aa9c64d8a35849f664781691d2978",
+  "models/load_check/LOAD_EPISODES_C5_A2_hl10.csv": "bebe7a1c1c12ac4e0a73deaf216b1a4b",
+  "models/method_heldout/HELDOUT_EPISODES_hl10.csv": "6bcb4e364b54c8ddce9af9c3d331d542",
+  "models/admission_check/ADMIT_EPISODES_A1_hl10.csv": "3f326c21d1da6ce69ec3c2a56104e391",
+  "models/admission_check/ADMIT_EPISODES_A2_hl10.csv": "d4ffa8795f9f6f267f6f068d3168d098"
+ }
+}

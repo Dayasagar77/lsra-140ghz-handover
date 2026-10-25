@@ -1,0 +1,28 @@
+{
+ "beta": 0.05,
+ "frozen_at_utc": "2026-10-20 07:28:20",
+ "approval": "Daya, 20 Oct: Freeze and run now",
+ "md5": {
+  "lsra.py": "d344b8614629917c6461e517e2bca8c3",
+  "method_harness.py": "3b3d3ed06eed670b8d6fca0a6c02c0fa",
+  "method_heldout.py": "39118bbceafde03a0549982968b4d4d5",
+  "paper2ma_env_attach.py": "15039749991394f1abe3d507a7e53144",
+  "paper2ma_env.py": "42c9dba38c90141e3c96b8678d14857b",
+  "paper2ma_confirm.py": "a900171af7343dbf249a547cb84aa1ca",
+  "capacity_rule.py": "b3c4f289b940b59ca94abc0be3061bc1",
+  "assign_value.py": "1e7dd45241670c2b762732adca263e6d",
+  "paper2ma_antic_test.py": "2672762d2437af9591a84a59771d3859",
+  "remeasure_ma.py": "c90eb0ad3c038b306f5e1a18e73e58b1",
+  "remeasure_ma2.py": "33a27ac9c5f0f10f3033940b445c498c",
+  "paper2_env.py": "1355e7b7ceed57c26b3d60b05695d763",
+  "paper2_controller.py": "fc7b665bad26fe75815e1be420eef082",
+  "channel_model_nyu.py": "9c4813663664dd7aad9caf10533752a6",
+  "blockage3d.py": "c1e1f48ed6e8ce1d33d0220e10ebdc82",
+  "anticipate.py": "3879dc4c66aafd6872d36076c6f3fba7",
+  "env_6g_v6.py": "34ccfe7172945a73425413d1f9328c52",
+  "dair_geometry_pool_heldout60_20261020.csv": "3a68d055876a733ee21de37700385a75",
+  "models/method_heldout/SEEDS_heldout60.csv": "ef0e8e0ce83cdb0369154bd35b9d22e4",
+  "models/method_dev/DEV2_RESULT.json": "d06e4b7b6caae8b9f23ec1c229263ffb"
+ },
+ "missing": []
+}

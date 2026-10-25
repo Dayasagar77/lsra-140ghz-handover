@@ -1,0 +1,72 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "runner_md5": "b3195de3a26e204b7bdbb7a34abc4c49",
+ "D0": {
+  "PT_MAX": 30.0,
+  "PT_MIN": 23.0,
+  "INTERF_PT_DBM": 30.0,
+  "SINR_OUT_DB": -13.822435032652734
+ },
+ "scenes": [
+  "10915",
+  "12788",
+  "14308",
+  "15317",
+  "17796"
+ ],
+ "U1a_geometry_identical": true,
+ "U1a_bg_ratio_max_rel_error": 2.7755575615628914e-15,
+ "U1a_bg_entries_compared": 1708,
+ "U1b_all_pt_23": true,
+ "U1b_desired_drop_db": [
+  7.0,
+  7.0
+ ],
+ "U1b_same_scene": true,
+ "U1c_risk_never_lower": true,
+ "U1c_risk_higher_somewhere": true,
+ "U1d_modules_scanned": [
+  "admission_check",
+  "anticipate",
+  "assign_value",
+  "blockage3d",
+  "capacity_rule",
+  "channel_model",
+  "channel_model_nyu",
+  "env_6g_v5",
+  "env_6g_v6",
+  "lsra",
+  "method_harness",
+  "method_heldout",
+  "paper2_controller",
+  "paper2_env",
+  "paper2_per",
+  "paper2ma_antic_test",
+  "paper2ma_confirm",
+  "paper2ma_env",
+  "paper2ma_env_admit",
+  "paper2ma_env_attach",
+  "paper2ma_train",
+  "remeasure_ma",
+  "remeasure_ma2"
+ ],
+ "U1d_by_value_copies": [],
+ "U1e_paper1_constants_NaN_same_episodes": {
+  "R0": true,
+  "R1": true,
+  "R1i": true,
+  "R2": true,
+  "R3": true,
+  "R3F": true,
+  "METHOD": true,
+  "METHOD_oracle": true,
+  "ABL_nolanding": true,
+  "ABL_worstcarfirst": true
+ },
+ "ok": true
+}

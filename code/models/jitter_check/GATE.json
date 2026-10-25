@@ -1,0 +1,37 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "n_seeds": 40,
+ "hl": 10,
+ "per_arm": {
+  "C4_R0": true,
+  "C4_R1": true,
+  "C4_R1i": true,
+  "C4_R2": true,
+  "C4_R3": true,
+  "C4_R3F": true,
+  "C4_METHOD": true,
+  "C4_METHOD_oracle": true,
+  "C4_ABL_nolanding": true,
+  "C4_ABL_worstcarfirst": true,
+  "C5_R0": true,
+  "C5_R1": true,
+  "C5_R1i": true,
+  "C5_R2": true,
+  "C5_R3": true,
+  "C5_R3F": true,
+  "C5_METHOD": true,
+  "C5_METHOD_oracle": true,
+  "C5_ABL_nolanding": true,
+  "C5_ABL_worstcarfirst": true
+ },
+ "lsra_excess_car_steps_at_J0": {
+  "C4": 30,
+  "C5": 2
+ },
+ "ok": true
+}

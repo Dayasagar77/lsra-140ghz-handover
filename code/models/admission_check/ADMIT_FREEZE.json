@@ -1,0 +1,16 @@
+{
+ "written_utc": "2026-10-20 08:15:31",
+ "beta": 0.05,
+ "md5": {
+  "paper2ma_env_admit.py": "5a644059a82ba06a73ad2f1f47968c90",
+  "admission_check.py": "1b16d561d8a1e14a715cc5b0dc5e8e95",
+  "PREREG_MA_AdmissionAtPreparation_Robustness_FROZEN_20261020.md": "e36ee11e0dfae849de360ec78346ee9e",
+  "models/admission_check/UNIT.json": "2048018cf432dfbb8f0a9e7bc95d999a",
+  "models/admission_check/GATE.json": "f4e3ace8a1f4dbbbc1bbba73ee8b941c",
+  "models/method_heldout/FREEZE.json": "76f010f740673ef3fa66f4cf8914b0a5",
+  "models/method_heldout/HELDOUT_EPISODES_hl2.csv": "fd529a6b4fb3f5decd6995ca9027ee0f",
+  "models/method_heldout/HELDOUT_EPISODES_hl5.csv": "dfdfba2bc05dca6800e7e383fb8696bc",
+  "models/method_heldout/HELDOUT_EPISODES_hl10.csv": "6bcb4e364b54c8ddce9af9c3d331d542",
+  "models/method_heldout/HELDOUT_EPISODES_hl15.csv": "ec7cd3c3d43002f6e73c832f5af1216e"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "written_utc": "2026-10-20 08:58:54",
+ "beta": 0.05,
+ "cap": 5,
+ "md5": {
+  "load_check.py": "c9251e84de8d670adb802a85ed4d6c34",
+  "admission_check.py": "1b16d561d8a1e14a715cc5b0dc5e8e95",
+  "paper2ma_env_admit.py": "5a644059a82ba06a73ad2f1f47968c90",
+  "PREREG_MA_LoadCheck_SparePlaces_C5_FROZEN_20261020.md": "aa3d10a021e336cf923fe3b935fcd2c2",
+  "models/load_check/GATE.json": "08e6a7066234f0f8ff29b535d4f257fe",
+  "models/method_heldout/FREEZE.json": "76f010f740673ef3fa66f4cf8914b0a5",
+  "models/admission_check/ADMIT_FREEZE.json": "e05b851e8a3ec295d314d1703196e6c5"
+ }
+}

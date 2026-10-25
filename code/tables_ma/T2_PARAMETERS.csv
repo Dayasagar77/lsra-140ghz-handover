@@ -1,0 +1,21 @@
+parameter,value,from
+Carrier frequency,140 GHz,channel_model_nyu.FREQ
+Bandwidth,380.16 MHz,channel_model.BW (66 RBs x 12 x 480 kHz)
+Noise figure; noise power,10 dB; -78.2 dBm,"channel_model.NF_DB, N0_DBM"
+Path loss,"CI model, FSPL(1 m) = 75.36 dB, exponent 1.9","channel_model_nyu (142 GHz UMi, LOS)"
+Blockage loss,"3D boxes, ITU-R P.526 knife edge, cap 40 dB, blocked if >= 1 dB",blockage3d
+Shadow fading (std),"2.7 dB clear, 8.2 dB blocked","channel_model_nyu.SIG_LOS, SIG_NLOS"
+Heights,"vehicle antenna 1.5 m, station 6.0 m","blockage3d.H_UE_DEFAULT, H_GNB_DEFAULT"
+Stations,"4, at the corners, 5 m outside the traffic extent",blockage3d.scene_gnb (margin 5 m)
+Transmit power (every arm),30 dBm,paper2_env.PT_MAX
+Serving beam gain; side lobe,15 dBi; 0 dBi,"paper2_env.G_SERV, G_SIDE (assumption)"
+Background interferers,4 static vehicles per station at 30 dBm,"paper2ma_env.K_BG, paper2_env.INTERF_PT_DBM"
+Sub-bands,"3, assigned round robin, fixed",paper2ma_env.N_SUBBANDS
+Outage threshold γ_out,-13.8 dB SINR (= -92 dBm minus the noise power),paper2_env.SINR_OUT_DB
+Radio-link failure,N310 = 3 consecutive failed slots,paper2_env.N310
+Slot,0.1 s (DAIR-V2X frame rate),pool timestamps
+"Vehicles, places","16 vehicles per scene; C = 4 (full load), C = 5 (load 0.8) and C = 6 (load 0.67)",run scripts
+Handover delay,"0.2 s, 0.5 s, 1.0 s, 1.5 s (L = 2, 5, 10, 15 slots)",method_heldout.HLS
+LSRA,"β = 0.05, H = L + 1, forecast held from slot t","FREEZE.json, lsra.py"
+"Scenes, episodes",45 design and 60 held-out DAIR-V2X intersection scenes; 480 episodes per cell,"pools, SEEDS_heldout60.csv"
+Statistics,"scene bootstrap, 10,000 resamples; 98.75 % for four-baseline families",remeasure_ma.BOOT

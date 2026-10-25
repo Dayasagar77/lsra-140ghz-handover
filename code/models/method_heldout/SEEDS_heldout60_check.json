@@ -1,0 +1,8 @@
+{
+ "n_scenes": 60,
+ "episodes": 480,
+ "all_eight": true,
+ "reset_mismatch": 0,
+ "max_j": 1028,
+ "md5": "ef0e8e0ce83cdb0369154bd35b9d22e4"
+}

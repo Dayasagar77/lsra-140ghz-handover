@@ -1,0 +1,12 @@
+2026-10-20 21:21:41 test C5 J2 start (beta 0.05)
+2026-10-20 21:22:26 test C5 J2 R0 done (480 episodes, 44 s)
+2026-10-20 21:23:23 test C5 J2 R1 done (480 episodes, 58 s)
+2026-10-20 21:24:22 test C5 J2 R1i done (480 episodes, 58 s)
+2026-10-20 21:25:25 test C5 J2 R2 done (480 episodes, 63 s)
+2026-10-20 21:27:06 test C5 J2 R3 done (480 episodes, 101 s)
+2026-10-20 21:28:52 test C5 J2 R3F done (480 episodes, 107 s)
+2026-10-20 21:30:04 test C5 J2 METHOD done (480 episodes, 71 s)
+2026-10-20 21:31:38 test C5 J2 METHOD_oracle done (480 episodes, 94 s)
+2026-10-20 21:32:46 test C5 J2 ABL_nolanding done (480 episodes, 68 s)
+2026-10-20 21:34:01 test C5 J2 ABL_worstcarfirst done (480 episodes, 75 s)
+2026-10-20 21:34:01 test C5 J2 DONE
