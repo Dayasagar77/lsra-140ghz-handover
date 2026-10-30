@@ -1,0 +1,4 @@
+2026-10-30 06:07:02 [prep] B1: 60 scenes (86 s)
+2026-10-30 06:08:32 [prep] B2: 60 scenes (90 s)
+2026-10-30 06:09:56 [prep] B3: 60 scenes (84 s)
+2026-10-30 06:10:01 [prep] done: {'None': {'link_slots': 328972, 'blocked_share': 0.04422564838344905, 'mean_loss_when_blocked': 24.905430771387877}, 'B1': {'link_slots': 328972, 'blocked_share': 0.05197098841238768, 'mean_loss_when_blocked': 21.633142263153584}, 'B2': {'link_slots': 328972, 'blocked_share': 0.04449314835305132, 'mean_loss_when_blocked': 26.145742546870757}, 'B3': {'link_slots': 328972, 'blocked_share': 0.04422564838344905, 'mean_loss_when_blocked': 26.03404156200982}}

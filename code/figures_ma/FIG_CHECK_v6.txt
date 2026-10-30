@@ -1,0 +1,5 @@
+source D:\DAYA PHD\PHD WORK\startfromscratch\Paper2\realism_deviation\reanalysis\REAL_RESULT.json md5 bef337dafcd5135ba6ce69a120461cd9
+python 3.11.9 matplotlib 3.10.9
+font used: C:\Windows\Fonts\arial.ttf
+ideal leads drawn: 5.166678 (LSRA A1) and 5.521579 (R2 A1)
+30 drawn values equal the file; every interval of panel (a) lies above 0; break-even: none

@@ -1,0 +1,12 @@
+{
+ "ok": true,
+ "compared": 171,
+ "mismatches": [],
+ "problems": [],
+ "result_md5": "acdf6f6e3cddf56bfa7d15ba0c287d85",
+ "note": "stored V0 cells relabelled as every world and setting; no realism episode used",
+ "code": {
+  "realism_check.py": "28345fdf2abe97119debbc25ec0b71c2",
+  "realism_env.py": "c827b7f636f6635f6df987882f2eb056"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "started": "2026-10-30 11:07:23",
+ "diag_md5": "eaccf67da9305d34f0006fd84ffff83a",
+ "this": "929cf65838e09d86ddda71816e19044c",
+ "realism_check": "28345fdf2abe97119debbc25ec0b71c2",
+ "line_registered": "if key[0] not in ('C2a', 'C2b') and int(d.dec_over.sum()) != 0:",
+ "line_used": "if key[0] not in ('C2a', 'C2b', 'H2a', 'H2b', 'ALL') and int(d.dec_over.sum()) != 0:",
+ "why": "DIAG_DECOVER.json confirmed: every flagged event in H2a, H2b and ALL is a handover moved by a same-slot too-late re-establishment; recounted on the decision's own target the excess is 0",
+ "written": "2026-10-30 11:10:34",
+ "ok": true,
+ "problems": [],
+ "result_json_md5": "bef337dafcd5135ba6ce69a120461cd9",
+ "result_txt_md5": "cbfd9104467db79b83364253cb6393e6",
+ "last_boot_seed": 14341
+}

@@ -1,0 +1,15 @@
+2026-10-28 11:03:31 [unit] PASS {"U1_A3Gen_equals_A3Rule": true, "U2_cio_formula": true, "U2_cio_clip": true, "U2_cio_zero_without_kappa": true, "U2_cio_moves_to_emptiest": true, "U3_na_rule": {"case1_highest_average": true, "case1_dwell_not_met": true, "case1_no_station_beats_by_delta_avg": true, "case1_delta_init_filters": true, "case2_reliable_highest_average": true, "case2_no_dwell_condition": true, "case2_allowed_subset": true, "case2_delta_init_blocks": true, "case2_fallback_longest_above": true, "case2_fallback_start_not_better": true, "case2_fallback_tie_to_higher_average_a": true, "case2_fallback_tie_to_higher_average_b": true, "no_candidate": true}, "U4_dwell_then_both_move": true, "U4_room_counted_within_slot": true, "U5a_gate_mode_risk_equals_lsra": true, "U5a_max_risk_diff": 0.0, "U5b_filter_coefficient_K4": true, "U5c_filter_and_restart": true, "U5d_risk_rebuilt_by_hand": true, "U5d_largest_risk": 0.45146646105132604, "U5e_decision_equals_lsra": true, "U6_quick_returns": true, "U6_counts": [1, 1, 0], "U7_pick_a3": true, "U7_pick_kappa": true, "U8_a3o_pick": true, "U9_grid_sizes": true, "U9_tr36839_slots": true, "ok": true}
+2026-10-28 11:03:50 [G1a] A3Gen with Set 1 = stored A3S1: True (16 s)
+2026-10-28 11:04:05 [G1a] A3Gen with Set 2 = stored A3S2: True (14 s)
+2026-10-28 11:04:19 [G1a] A3Gen with Set 3 = stored A3S3: True (14 s)
+2026-10-28 11:04:32 [G1a] A3Gen with Set 4 = stored A3S4: True (13 s)
+2026-10-28 11:04:46 [G1a] A3Gen with Set 5 = stored A3S5: True (14 s)
+2026-10-28 11:04:58 [G1b] LSRA = stored (held-out): True
+2026-10-28 11:05:13 [G1c] design environment, 4 places: LSRA = stored = True
+2026-10-28 11:05:27 [G1c] design environment, 6 places: LSRA = stored = True
+2026-10-28 11:06:41 [G1d] {'scenes': 60, 'slots': 6000, 'mismatches': 0, 'first_mismatch': None, 'seconds': 74.1, 'ok': True}
+2026-10-28 11:06:57 [G2] {'max_risk_diff': 0.0, 'slots': 3960, 'slots_with_other_decision': 0, 'episodes_equal_stored_LSRA': True, 'ok': True}
+2026-10-28 11:07:48 [G3] ok=True
+2026-10-28 11:10:54 [G4] {'design_A3_s_per_episode': 0.3891576588153839, 'A3T_s_per_episode': 0.4421366572380066, 'A3TNF_s_per_episode': 0.33615649938583375, 'A3LB_s_per_episode': 0.3547613263130188, 'PHO_s_per_episode': 0.45758284330368043, 'PHOR_s_per_episode': 0.419243311882019, 'LSRAM_s_per_episode': 0.3409438133239746, 'PHCV_forecast_s_per_scene': 4.644477367401123, 'PHCV_s_per_episode_forecast_cached': 0.4568180203437805, 'projected_cpu_hours': {'stage1': 47.63, 'test': 3.48, 'oracle': 14.15}, 'projected_wall_hours_10_workers_if_no_slowdown': 6.53}
+2026-10-28 11:10:54 [gate] ok=True
+2026-10-28 11:12:55 [dry] ok=True compared=565 mismatches=0 problems=[]

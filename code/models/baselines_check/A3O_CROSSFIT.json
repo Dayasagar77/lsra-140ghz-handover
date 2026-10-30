@@ -1,0 +1,50 @@
+{
+ "spec": "EXPLORATORY_A3O_CrossFit_HonestPerSceneTuning_Spec_20261030.md",
+ "label": "exploratory, post hoc (not a registered test)",
+ "code_md5": "13983303856fe36ea9484d6e6c43e09b",
+ "written": "2026-10-30 05:40:46",
+ "C4_A2": {
+  "insample_bound": 3.0161450478272434,
+  "crossfit": 6.7074503953257105,
+  "optimism": 3.691305347498467,
+  "LSRA": 3.5932737157025976,
+  "A3T": 8.309560561168361,
+  "crossfit_minus_LSRA": {
+   "mean": 3.114176679623113,
+   "ci_95": [
+    1.7923829986541608,
+    4.373735055522635
+   ]
+  },
+  "crossfit_minus_A3T": {
+   "mean": -1.60211016584265,
+   "ci_95": [
+    -2.864563372086155,
+    -0.38322920676573374
+   ]
+  },
+  "reading": "per-scene tuning without hindsight does not close the gap"
+ },
+ "C5_A2": {
+  "insample_bound": 1.8068641731462238,
+  "crossfit": 4.822281819947379,
+  "optimism": 3.0154176468011546,
+  "LSRA": 2.6100042451526506,
+  "A3T": 5.095190172663073,
+  "crossfit_minus_LSRA": {
+   "mean": 2.2122775747947276,
+   "ci_95": [
+    1.1063588009497358,
+    3.203001030865355
+   ]
+  },
+  "crossfit_minus_A3T": {
+   "mean": -0.2729083527156945,
+   "ci_95": [
+    -3.6348035627612134,
+    2.044784773642626
+   ]
+  },
+  "reading": "per-scene tuning without hindsight does not close the gap"
+ }
+}

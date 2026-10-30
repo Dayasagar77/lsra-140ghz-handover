@@ -1,0 +1,3 @@
+2026-10-30 06:22:56 [analyse] start
+2026-10-30 06:26:29 [analyse] done; robustness {'RW1': ['V0', 'S1', 'S2', 'S3', 'B1', 'B2', 'B3', 'A1a', 'A1b', 'A2', 'A3', 'F1', 'H1', 'H2a', 'H2b', 'ALL'], 'RW2': ['V0', 'S1', 'S2', 'S3', 'B1', 'B2', 'B3', 'A1a', 'A1b', 'A2', 'A3', 'F1', 'H1', 'H2a', 'H2b', 'ALL'], 'RW3': ['V0', 'S1', 'S2', 'S3', 'B1', 'B2', 'B3', 'A1a', 'A1b', 'A2', 'A3', 'F1', 'H1', 'H2a', 'H2b', 'ALL']}
+2026-10-30 06:26:29 [dry] ok=True compared=171 mismatches=0

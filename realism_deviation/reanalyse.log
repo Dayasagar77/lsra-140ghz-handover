@@ -1,0 +1,3 @@
+2026-10-30 11:07:24 [analyse] start
+2026-10-30 11:10:34 [analyse] done; robustness {'RW1': ['V0', 'S1', 'S2', 'S3', 'B1', 'B2', 'B3', 'A1a', 'A1b', 'A2', 'A3', 'F1', 'H1', 'H2a'], 'RW2': ['V0', 'S1', 'S2', 'S3', 'B1', 'B2', 'B3', 'A1a', 'A1b', 'A2', 'A3', 'F1', 'H1', 'H2a', 'H2b', 'ALL'], 'RW3': ['V0', 'S1', 'S2', 'S3', 'B1', 'B2', 'B3', 'A1a', 'A1b', 'A2', 'A3', 'F1', 'H1', 'H2a', 'H2b', 'ALL']}
+{"ok": true, "problems": [], "result_json_md5": "bef337dafcd5135ba6ce69a120461cd9", "last_boot_seed": 14341}

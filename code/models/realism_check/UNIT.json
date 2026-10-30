@@ -1,0 +1,43 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "U1_filter_recursion": true,
+ "U1_restart_on_reappearance": true,
+ "U1_stopped_vehicle_keeps_draw": true,
+ "U1_unit_variance_and_correlation": true,
+ "U1_values": {
+  "var": 0.9975983830812977,
+  "lag1": 0.7849768775352036,
+  "rho": 0.7686205265937358
+ },
+ "U2_b1_near_miss": true,
+ "U2_b1_same_when_above": true,
+ "U2_b2_tall_longer": true,
+ "U2_b2_low_shorter": true,
+ "U2_b3_sum_and_cap": true,
+ "U2_values": {
+  "near_miss_db": 3.4650210591507564,
+  "b3_two": 60.0,
+  "one": 31.375026205461147,
+  "other": 32.346890657653695
+ },
+ "U3_gain_switch": true,
+ "U4_pattern": true,
+ "U5_loss": true,
+ "U5_pointing_every_5_slots": true,
+ "U5_repointed_after_gap": true,
+ "U6_unit_mean": true,
+ "U6_rayleigh_spread_wider": true,
+ "U6_common_random_numbers": true,
+ "U7_break_even": true,
+ "U8_switch_names": true,
+ "ok": true,
+ "code": {
+  "realism_check.py": "28345fdf2abe97119debbc25ec0b71c2",
+  "realism_env.py": "c827b7f636f6635f6df987882f2eb056"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "_freeze": "2026-10-30 09:17:17",
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "problems": [
+  "('H2a', 'LSRA', 'A1'): created landing excess",
+  "('H2a', 'A3T', 'A1'): created landing excess",
+  "('H2a', 'A3T', 'A2'): created landing excess",
+  "('H2a', 'A3S5', 'A2'): created landing excess",
+  "('H2b', 'R2', 'A2'): created landing excess",
+  "('H2b', 'A3T', 'A1'): created landing excess",
+  "('H2b', 'A3T', 'A2'): created landing excess",
+  "('H2b', 'A3S5', 'A2'): created landing excess",
+  "('ALL', 'LSRA', 'A1'): created landing excess",
+  "('ALL', 'LSRA', 'A2'): created landing excess",
+  "('ALL', 'R2', 'A1'): created landing excess",
+  "('ALL', 'R2', 'A2'): created landing excess",
+  "('ALL', 'A3T', 'A1'): created landing excess",
+  "('ALL', 'A3T', 'A2'): created landing excess",
+  "('ALL', 'R1i', 'A2'): created landing excess",
+  "('ALL', 'R3', 'A2'): created landing excess",
+  "('ALL', 'A3S5', 'A2'): created landing excess"
+ ]
+}

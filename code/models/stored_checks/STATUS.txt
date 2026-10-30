@@ -1,0 +1,4 @@
+2026-10-28 10:08:46  unit PASS {"UA1_split": true, "UA2_pairing_failures_caught": true, "UA3_store_filters": true, "UA4_check_a_values": true, "UA4_m2_flag": true, "UA4_m1_flag": true, "UB1_events": true, "UB1b_uncensored": true, "UB2_margin": true, "UB3_hash_expr": true, "UB4_all_60_caches_exist": true, "ok": true}
+2026-10-28 10:09:21  freeze written: 138 input files
+2026-10-28 10:10:30  analyse started
+2026-10-28 10:19:47  analyse done; ok=True

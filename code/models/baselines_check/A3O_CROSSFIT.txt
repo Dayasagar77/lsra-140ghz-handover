@@ -1,0 +1,9 @@
+A3-O CROSS-FIT (exploratory, post hoc): per-scene A3 tuning chosen on half of a scene's episodes and scored
+on the other half (35 splits per scene, both ways); 4 and 5 places, coordinated admission, 1.0 s; J in %
+
+4 places: in-sample bound 3.02, cross-fit 6.71 (optimism +3.69); LSRA 3.59; tuned A3 8.31
+  cross-fit minus LSRA +3.11 [+1.79, +4.37] -> per-scene tuning without hindsight does not close the gap
+  cross-fit minus tuned A3 -1.60 [-2.86, -0.38]
+5 places: in-sample bound 1.81, cross-fit 4.82 (optimism +3.02); LSRA 2.61; tuned A3 5.10
+  cross-fit minus LSRA +2.21 [+1.11, +3.20] -> per-scene tuning without hindsight does not close the gap
+  cross-fit minus tuned A3 -0.27 [-3.63, +2.04]

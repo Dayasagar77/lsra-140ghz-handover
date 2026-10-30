@@ -1,0 +1,3 @@
+2026-10-28 19:41:13 [analyse] start
+2026-10-28 19:43:04 [analyse] done; HN1 held=True, HN2 held=False
+2026-10-28 19:43:04 [dry] ok=True compared=565 mismatches=0 problems=[]

@@ -1,0 +1,7867 @@
+{
+ "written": "2026-10-30 11:05:03",
+ "versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "pandas": "3.0.3"
+ },
+ "code": {
+  "this": "a605d2b0a7f92ae6c2686f830fc57926",
+  "realism_check": "28345fdf2abe97119debbc25ec0b71c2",
+  "realism_env": "c827b7f636f6635f6df987882f2eb056"
+ },
+ "inputs": {
+  "frozen_files_unchanged": 235,
+  "cells_unchanged": 163
+ },
+ "cells": {
+  "H2a_LSRA_A1": [
+   {
+    "seed": 930000094,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000263,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000298,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2a_A3T_A1": [
+   {
+    "seed": 930000030,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 47,
+      "started": [
+       0,
+       2,
+       9
+      ],
+      "reestablished": [
+       [
+        2,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "2": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       5.0,
+       4.0,
+       2.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       2.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         2
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000072,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       1,
+       2,
+       5,
+       6,
+       7,
+       15
+      ],
+      "reestablished": [
+       [
+        6,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "6": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         6
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000120,
+    "scene": "31073",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 78,
+      "started": [
+       11,
+       13
+      ],
+      "reestablished": [
+       [
+        11,
+        "too_late",
+        0,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "11": [
+        0,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       5.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         11
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000135,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       6
+      ],
+      "reestablished": [
+       [
+        6,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "6": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         6
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000229,
+    "scene": "38372",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 52,
+      "started": [
+       0,
+       4,
+       5,
+       6
+      ],
+      "reestablished": [
+       [
+        5,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "5": [
+        1,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       0.0,
+       4.0,
+       1.0
+      ],
+      "harness_after": [
+       5.0,
+       1.0,
+       2.0,
+       1.0
+      ],
+      "decision_after": [
+       4.0,
+       2.0,
+       2.0,
+       1.0
+      ],
+      "env_after": [
+       4.0,
+       1.0,
+       2.0,
+       1.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         5
+        ],
+        "left_the_scene": [
+         9
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000285,
+    "scene": "73542",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 36,
+      "started": [
+       0
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        0,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       3.0,
+       5.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000396,
+    "scene": "48450",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       2,
+       6
+      ],
+      "reestablished": [
+       [
+        1,
+        "too_late",
+        0,
+        1,
+        2
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "6": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       2.0,
+       3.0,
+       3.0
+      ],
+      "harness_after": [
+       4.0,
+       2.0,
+       1.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         6
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000408,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       0,
+       2,
+       4,
+       6,
+       12,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "6": [
+        1,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       2.0,
+       5.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       5.0,
+       2.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         6
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000424,
+    "scene": "38671",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 90,
+      "started": [
+       2,
+       8,
+       10,
+       12
+      ],
+      "reestablished": [
+       [
+        8,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "8": [
+        1,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       3.0,
+       5.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         8
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000443,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 91,
+      "started": [
+       4,
+       5,
+       8,
+       9,
+       13
+      ],
+      "reestablished": [
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "13": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         13
+        ],
+        "left_the_scene": [
+         14
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2a_A3T_A2": [
+   {
+    "seed": 930000009,
+    "scene": "24122",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 64,
+      "started": [
+       3,
+       15
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000146,
+    "scene": "38671",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 75,
+      "started": [
+       6,
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000150,
+    "scene": "59136",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 13,
+      "started": [
+       0,
+       3,
+       6,
+       15
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       2.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       2.0,
+       2.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       2.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       2.0,
+       2.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         8
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000184,
+    "scene": "73542",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 66,
+      "started": [
+       10,
+       15
+      ],
+      "reestablished": [
+       [
+        10,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "10": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       3.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         10
+        ],
+        "left_the_scene": [
+         14
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000200,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 97,
+      "started": [
+       0,
+       1,
+       2
+      ],
+      "reestablished": [
+       [
+        2,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "2": [
+        0,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       2.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         2
+        ],
+        "left_the_scene": [
+         6
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000824,
+    "scene": "70658",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 31,
+      "started": [
+       9,
+       11
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       5.0,
+       3.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2a_A3S5_A2": [
+   {
+    "seed": 930000009,
+    "scene": "24122",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 64,
+      "started": [
+       3,
+       15
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000146,
+    "scene": "38671",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 75,
+      "started": [
+       6,
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000150,
+    "scene": "59136",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 13,
+      "started": [
+       0,
+       3,
+       6,
+       15
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       2.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       2.0,
+       2.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       2.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       2.0,
+       2.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         8
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000184,
+    "scene": "73542",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 66,
+      "started": [
+       10,
+       15
+      ],
+      "reestablished": [
+       [
+        10,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "10": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       3.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         10
+        ],
+        "left_the_scene": [
+         14
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000200,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 97,
+      "started": [
+       0,
+       1,
+       2
+      ],
+      "reestablished": [
+       [
+        2,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "2": [
+        0,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       2.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         2
+        ],
+        "left_the_scene": [
+         6
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000824,
+    "scene": "70658",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 31,
+      "started": [
+       9,
+       11
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       5.0,
+       3.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2b_R2_A2": [
+   {
+    "seed": 930000097,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 84,
+      "started": [
+       4
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        0,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        0,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         7
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2b_A3T_A1": [
+   {
+    "seed": 930000062,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 77,
+      "started": [
+       3,
+       4,
+       9
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        1,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000072,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       0,
+       5,
+       7,
+       15
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       4.0,
+       5.0,
+       3.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000229,
+    "scene": "38372",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 52,
+      "started": [
+       0,
+       4,
+       5,
+       6
+      ],
+      "reestablished": [
+       [
+        5,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "5": [
+        1,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       0.0,
+       4.0,
+       1.0
+      ],
+      "harness_after": [
+       5.0,
+       1.0,
+       2.0,
+       1.0
+      ],
+      "decision_after": [
+       4.0,
+       2.0,
+       2.0,
+       1.0
+      ],
+      "env_after": [
+       4.0,
+       1.0,
+       2.0,
+       1.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         5
+        ],
+        "left_the_scene": [
+         9
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000285,
+    "scene": "73542",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 36,
+      "started": [
+       0
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        0,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       3.0,
+       5.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000424,
+    "scene": "38671",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 90,
+      "started": [
+       2,
+       8,
+       10,
+       12
+      ],
+      "reestablished": [
+       [
+        8,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "8": [
+        1,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       3.0,
+       5.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         8
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000443,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 91,
+      "started": [
+       4,
+       5,
+       8,
+       9,
+       13
+      ],
+      "reestablished": [
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "13": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         13
+        ],
+        "left_the_scene": [
+         14
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2b_A3T_A2": [
+   {
+    "seed": 930000030,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 89,
+      "started": [
+       9
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       2.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       2.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       2.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000048,
+    "scene": "73542",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 49,
+      "started": [
+       0,
+       1,
+       3,
+       4,
+       5
+      ],
+      "reestablished": [
+       [
+        15,
+        "target",
+        1,
+        0,
+        1
+       ],
+       [
+        5,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "5": [
+        2,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       4.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         5
+        ],
+        "left_the_scene": [
+         8
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000308,
+    "scene": "44874",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 75,
+      "started": [
+       3,
+       11
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000824,
+    "scene": "70658",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 31,
+      "started": [
+       9,
+       11
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       5.0,
+       3.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "H2b_A3S5_A2": [
+   {
+    "seed": 930000030,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 89,
+      "started": [
+       9
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       2.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       2.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       2.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000048,
+    "scene": "73542",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 49,
+      "started": [
+       0,
+       1,
+       3,
+       4,
+       5
+      ],
+      "reestablished": [
+       [
+        15,
+        "target",
+        1,
+        0,
+        1
+       ],
+       [
+        5,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "5": [
+        2,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       4.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         5
+        ],
+        "left_the_scene": [
+         8
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000308,
+    "scene": "44874",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 75,
+      "started": [
+       3,
+       11
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000824,
+    "scene": "70658",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 31,
+      "started": [
+       9,
+       11
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       5.0,
+       3.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       3.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_LSRA_A1": [
+   {
+    "seed": 930000030,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000062,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ],
+       "13": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000072,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ],
+       "13": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000094,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000096,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ],
+       "13": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000097,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ],
+       "13": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000135,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       3.0,
+       5.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000190,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000200,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ],
+       "13": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000213,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       6,
+       13,
+       14
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        2,
+        10,
+        0
+       ],
+       [
+        6,
+        "too_late",
+        1,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        3,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        2,
+        1,
+        "too_late"
+       ],
+       "13": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000250,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000254,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000263,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000298,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000353,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000408,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000443,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000484,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000606,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000619,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000763,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_LSRA_A2": [
+   {
+    "seed": 930000408,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 42,
+      "started": [
+       2,
+       13
+      ],
+      "reestablished": [
+       [
+        2,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "2": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         2
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_R2_A1": [
+   {
+    "seed": 930000197,
+    "scene": "31073",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 69,
+      "started": [
+       3
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         9
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000201,
+    "scene": "59136",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 73,
+      "started": [
+       0
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        1,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       1.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000217,
+    "scene": "31073",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 83,
+      "started": [
+       13,
+       15
+      ],
+      "reestablished": [
+       [
+        15,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "15": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         15
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000254,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000443,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000484,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000606,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000619,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000763,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_R2_A2": [
+   {
+    "seed": 930000148,
+    "scene": "48450",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 67,
+      "started": [
+       1,
+       12
+      ],
+      "reestablished": [
+       [
+        1,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "1": [
+        0,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         1
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000190,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 82,
+      "started": [
+       3,
+       10
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000197,
+    "scene": "31073",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 69,
+      "started": [
+       3
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         9
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000201,
+    "scene": "59136",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 73,
+      "started": [
+       0
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        1,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       1.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_A3T_A1": [
+   {
+    "seed": 930000047,
+    "scene": "15317",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 64,
+      "started": [
+       3,
+       7,
+       8,
+       11
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       4.0,
+       5.0,
+       2.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       2.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000094,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 47,
+      "started": [
+       2,
+       7,
+       14
+      ],
+      "reestablished": [
+       [
+        2,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "2": [
+        1,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         2
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000109,
+    "scene": "51444",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 85,
+      "started": [
+       0,
+       8,
+       13
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       2.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       2.0,
+       0.0,
+       5.0
+      ],
+      "decision_after": [
+       3.0,
+       3.0,
+       0.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       2.0,
+       0.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000153,
+    "scene": "15317",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 64,
+      "started": [
+       0,
+       4,
+       9,
+       11
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       4.0,
+       2.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       2.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         14
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000213,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 89,
+      "started": [
+       8,
+       13
+      ],
+      "reestablished": [
+       [
+        13,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "13": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       2.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       2.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       2.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       2.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         13
+        ],
+        "left_the_scene": [
+         7
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000253,
+    "scene": "51444",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 19,
+      "started": [
+       2,
+       7
+      ],
+      "reestablished": [
+       [
+        2,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "2": [
+        2,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       2.0,
+       3.0,
+       1.0
+      ],
+      "harness_after": [
+       5.0,
+       2.0,
+       2.0,
+       1.0
+      ],
+      "decision_after": [
+       4.0,
+       2.0,
+       3.0,
+       1.0
+      ],
+      "env_after": [
+       4.0,
+       2.0,
+       2.0,
+       1.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         2
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000763,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       2,
+       4,
+       6,
+       11,
+       12,
+       13,
+       15
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       5.0,
+       3.0,
+       3.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_A3T_A2": [
+   {
+    "seed": 930000097,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 89,
+      "started": [
+       4,
+       7
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       2.0,
+       5.0
+      ],
+      "decision_after": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000263,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 67,
+      "started": [
+       2,
+       4,
+       7,
+       12
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_R1i_A2": [
+   {
+    "seed": 930000097,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4,
+       13
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        3,
+        10,
+        0
+       ],
+       [
+        13,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        3,
+        1,
+        "too_late"
+       ],
+       "13": [
+        0,
+        2,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       5.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       2
+      ],
+      "why": {
+       "2": {
+        "charged_after_same_slot_too_late": [
+         13
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000135,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 76,
+      "started": [
+       4
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        3,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        3,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         12
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000197,
+    "scene": "31073",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 69,
+      "started": [
+       3
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        2,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        2,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       3.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         9
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000201,
+    "scene": "59136",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 73,
+      "started": [
+       0
+      ],
+      "reestablished": [
+       [
+        0,
+        "too_late",
+        1,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "0": [
+        1,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       3.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       1.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       1.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         0
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000254,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000396,
+    "scene": "48450",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 79,
+      "started": [
+       9
+      ],
+      "reestablished": [
+       [
+        9,
+        "too_late",
+        0,
+        10,
+        1
+       ]
+      ],
+      "moved_started": {
+       "9": [
+        0,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       2.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         9
+        ],
+        "left_the_scene": [
+         10
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000443,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000484,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000606,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000619,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000763,
+    "scene": "69924",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 88,
+      "started": [
+       12
+      ],
+      "reestablished": [
+       [
+        12,
+        "too_late",
+        2,
+        10,
+        0
+       ]
+      ],
+      "moved_started": {
+       "12": [
+        2,
+        1,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       3.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       5.0,
+       3.0,
+       4.0
+      ],
+      "decision_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       1
+      ],
+      "why": {
+       "1": {
+        "charged_after_same_slot_too_late": [
+         12
+        ],
+        "left_the_scene": [
+         15
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_R3_A2": [
+   {
+    "seed": 930000191,
+    "scene": "17796",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 63,
+      "started": [
+       3,
+       11
+      ],
+      "reestablished": [
+       [
+        3,
+        "too_late",
+        3,
+        10,
+        2
+       ]
+      ],
+      "moved_started": {
+       "3": [
+        3,
+        0,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       5.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       4.0,
+       4.0,
+       3.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       0
+      ],
+      "why": {
+       "0": {
+        "charged_after_same_slot_too_late": [
+         3
+        ],
+        "left_the_scene": [
+         14
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ],
+  "ALL_A3S5_A2": [
+   {
+    "seed": 930000097,
+    "scene": "33388",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 89,
+      "started": [
+       4,
+       7
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "harness_after": [
+       3.0,
+       4.0,
+       2.0,
+       5.0
+      ],
+      "decision_after": [
+       3.0,
+       5.0,
+       2.0,
+       4.0
+      ],
+      "env_after": [
+       3.0,
+       4.0,
+       2.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   },
+   {
+    "seed": 930000263,
+    "scene": "32081",
+    "row_same": true,
+    "text_same": true,
+    "stored_dec_over": 1,
+    "harness_count": 1,
+    "decision_count": 0,
+    "slots": [
+     {
+      "slot": 67,
+      "started": [
+       2,
+       4,
+       7,
+       12
+      ],
+      "reestablished": [
+       [
+        4,
+        "too_late",
+        1,
+        10,
+        3
+       ]
+      ],
+      "moved_started": {
+       "4": [
+        1,
+        3,
+        "too_late"
+       ]
+      },
+      "before": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "harness_after": [
+       4.0,
+       3.0,
+       4.0,
+       5.0
+      ],
+      "decision_after": [
+       4.0,
+       4.0,
+       4.0,
+       4.0
+      ],
+      "env_after": [
+       4.0,
+       3.0,
+       4.0,
+       4.0
+      ],
+      "harness_count": 1,
+      "decision_count": 0,
+      "over": [
+       3
+      ],
+      "why": {
+       "3": {
+        "charged_after_same_slot_too_late": [
+         4
+        ],
+        "left_the_scene": [
+         13
+        ],
+        "moved_away_by_other_reestablishment": [],
+        "harness_load": 5.0,
+        "env_load_after": 4.0,
+        "cap": 4
+       }
+      }
+     }
+    ],
+    "slots_explained": true
+   }
+  ]
+ },
+ "summary": {
+  "episodes": 98,
+  "rows_reproduced": true,
+  "csv_text_reproduced": true,
+  "harness_count_reproduced": true,
+  "every_slot_explained": true,
+  "harness_total": 98,
+  "decision_total": 0,
+  "tally": {
+   "slots": 98,
+   "charged_after_same_slot_too_late": 98,
+   "left_the_scene": 79,
+   "moved_away_by_other_reestablishment": 0,
+   "env_within_cap": 98
+  },
+  "confirmed": true,
+  "seconds": 65.0
+ }
+}

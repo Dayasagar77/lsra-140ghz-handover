@@ -1,0 +1,15 @@
+2026-10-30 06:10:20 [G0] LSRA A1 = stored: True
+2026-10-30 06:10:36 [G0] LSRA A2 = stored: True
+2026-10-30 06:10:50 [G0] R2 A1 = stored: True
+2026-10-30 06:11:04 [G0] R2 A2 = stored: True
+2026-10-30 06:11:22 [G0] A3T A1 = stored: True
+2026-10-30 06:11:40 [G0] A3T A2 = stored: True
+2026-10-30 06:11:54 [G0] R1i A2 = stored: True
+2026-10-30 06:12:15 [G0] R3 A2 = stored: True
+2026-10-30 06:12:33 [G0] A3S5 A2 = stored: True
+2026-10-30 06:12:55 [G0] PHO A2 = stored: True
+2026-10-30 06:14:17 [G1] {'slots': 6000, 'mismatches': 0, 'first': None, 'seconds': 80.7, 'ok': True}
+2026-10-30 06:15:07 [G2] {'H1': {'reest': 0, 'too_late': 0, 'target': 0, 'h1_unserved': 46, 'reest_station_had_room': True, 'flight_mismatch': 0, 'ok': True}, 'H2a': {'reest': 18, 'too_late': 18, 'target': 0, 'h1_unserved': 0, 'reest_station_had_room': True, 'flight_mismatch': 0, 'ok': True}, 'H2b': {'reest': 19, 'too_late': 16, 'target': 3, 'h1_unserved': 0, 'reest_station_had_room': True, 'flight_mismatch': 0, 'ok': True}, 'C1a': {'starts': 56, 'dropped': 0, 'c3_failed': 0, 'jit_min': 5, 'jit_max': 15, 'flight_mismatch': 0, 'ok': True}, 'C1b': {'starts': 57, 'dropped': 0, 'c3_failed': 0, 'jit_min': 10, 'jit_max': 15, 'flight_mismatch': 0, 'ok': True}, 'C2b': {'starts': 61, 'dropped': 14, 'c3_failed': 0, 'jit_min': 10, 'jit_max': 10, 'flight_mismatch': 0, 'drop_share': 0.18666666666666668, 'ok': True}, 'C3c': {'starts': 59, 'dropped': 0, 'c3_failed': 9, 'jit_min': 10, 'jit_max': 10, 'flight_mismatch': 0, 'fail_share': 0.15254237288135594, 'ok': True}}
+2026-10-30 06:20:31 [G3] ok=True
+2026-10-30 06:22:46 [G4] {'s_per_episode': {'S1': 0.537, 'S2': 0.539, 'S3': 0.541, 'B1': 0.524, 'B2': 0.52, 'B3': 0.541, 'A1a': 0.542, 'A1b': 0.526, 'A2': 0.767, 'A3': 0.772, 'F1': 0.544, 'H1': 0.543, 'H2a': 0.531, 'H2b': 0.529, 'ALL': 0.778, 'C1a': 0.542, 'C1b': 0.53, 'C2a': 0.528, 'C2b': 0.529, 'C3a': 0.53, 'C3b': 0.528, 'C3c': 0.526, 'C4a': 0.531, 'C4b': 0.529}, 'projected_cpu_hours': 12.56, 'projected_wall_hours_6_workers': 2.09}
+2026-10-30 06:22:46 [gate] ok=True

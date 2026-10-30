@@ -1,0 +1,55 @@
+{
+ "_versions": {
+  "python": "3.11.9",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3"
+ },
+ "U1_A3Gen_equals_A3Rule": true,
+ "U2_cio_formula": true,
+ "U2_cio_clip": true,
+ "U2_cio_zero_without_kappa": true,
+ "U2_cio_moves_to_emptiest": true,
+ "U3_na_rule": {
+  "case1_highest_average": true,
+  "case1_dwell_not_met": true,
+  "case1_no_station_beats_by_delta_avg": true,
+  "case1_delta_init_filters": true,
+  "case2_reliable_highest_average": true,
+  "case2_no_dwell_condition": true,
+  "case2_allowed_subset": true,
+  "case2_delta_init_blocks": true,
+  "case2_fallback_longest_above": true,
+  "case2_fallback_start_not_better": true,
+  "case2_fallback_tie_to_higher_average_a": true,
+  "case2_fallback_tie_to_higher_average_b": true,
+  "no_candidate": true
+ },
+ "U4_dwell_then_both_move": true,
+ "U4_room_counted_within_slot": true,
+ "U5a_gate_mode_risk_equals_lsra": true,
+ "U5a_max_risk_diff": 0.0,
+ "U5b_filter_coefficient_K4": true,
+ "U5c_filter_and_restart": true,
+ "U5d_risk_rebuilt_by_hand": true,
+ "U5d_largest_risk": 0.45146646105132604,
+ "U5e_decision_equals_lsra": true,
+ "U6_quick_returns": true,
+ "U6_counts": [
+  1,
+  1,
+  0
+ ],
+ "U7_pick_a3": true,
+ "U7_pick_kappa": true,
+ "U8_a3o_pick": true,
+ "U9_grid_sizes": true,
+ "U9_tr36839_slots": true,
+ "ok": true,
+ "code": {
+  "baselines_check.py": "69b41b61809c5d0ab22369bd52e73102",
+  "a3_general.py": "f5cc0e4b56ce70a4a442166737c27c53",
+  "ph_rule.py": "c6b0b84917de418d3dda3948ef337d88",
+  "lsra_m.py": "7623bc25bd813fbfe9d3ee419abefbf0"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "ok": true,
+ "compared": 565,
+ "mismatches": [],
+ "problems": [],
+ "result_md5": "5c41383535d5285f47699adab1d12be6",
+ "note": "stored arms relabelled: {\"A3T\": [\"a3\", \"A3S5\"], \"A3TNF\": [\"base\", \"R1\"], \"A3LB\": [\"base\", \"R2\"], \"PHO\": [\"base\", \"R3\"], \"PHCV\": [\"base\", \"R0\"], \"PHOR\": [\"base\", \"R1i\"], \"LSRAM\": [\"base\", \"ABL_nolanding\"]}; A3O stand-in: setting j = stored A3S(j mod 5 + 1)",
+ "code": {
+  "baselines_check.py": "69b41b61809c5d0ab22369bd52e73102",
+  "a3_general.py": "f5cc0e4b56ce70a4a442166737c27c53",
+  "ph_rule.py": "c6b0b84917de418d3dda3948ef337d88",
+  "lsra_m.py": "7623bc25bd813fbfe9d3ee419abefbf0"
+ }
+}

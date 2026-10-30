@@ -1,0 +1,13 @@
+2026-10-28 19:34:03 [G1a] A3Gen with Set 1 = stored A3S1: True (10 s)
+2026-10-28 19:34:17 [G1a] A3Gen with Set 2 = stored A3S2: True (14 s)
+2026-10-28 19:34:31 [G1a] A3Gen with Set 3 = stored A3S3: True (14 s)
+2026-10-28 19:34:44 [G1a] A3Gen with Set 4 = stored A3S4: True (13 s)
+2026-10-28 19:34:58 [G1a] A3Gen with Set 5 = stored A3S5: True (14 s)
+2026-10-28 19:35:10 [G1b] LSRA = stored (held-out): True
+2026-10-28 19:35:25 [G1c] design environment, 4 places: LSRA = stored = True
+2026-10-28 19:35:38 [G1c] design environment, 6 places: LSRA = stored = True
+2026-10-28 19:36:47 [G1d] {'scenes': 60, 'slots': 6000, 'mismatches': 0, 'first_mismatch': None, 'seconds': 68.7, 'ok': True}
+2026-10-28 19:37:02 [G2] {'max_risk_diff': 0.0, 'slots': 3960, 'slots_with_other_decision': 0, 'episodes_equal_stored_LSRA': True, 'ok': True}
+2026-10-28 19:38:03 [G3] ok=True
+2026-10-28 19:41:02 [G4] {'design_A3_s_per_episode': 0.39108636379241946, 'A3T_s_per_episode': 0.4345321893692017, 'A3TNF_s_per_episode': 0.34945383071899416, 'A3LB_s_per_episode': 0.3467127919197083, 'PHO_s_per_episode': 0.45200562477111816, 'PHOR_s_per_episode': 0.4187264323234558, 'LSRAM_s_per_episode': 0.3343989491462708, 'PHCV_forecast_s_per_scene': 4.236419916152954, 'PHCV_s_per_episode_forecast_cached': 0.46717015504837034, 'projected_cpu_hours': {'stage1': 47.87, 'test': 3.41, 'oracle': 13.91}, 'projected_wall_hours_10_workers_if_no_slowdown': 6.52}
+2026-10-28 19:41:02 [gate] ok=True
